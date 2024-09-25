@@ -12,6 +12,8 @@ import Contact from '../pages/Contact';
 const HeaderNavbar = () => {
   return (
     <>
+
+
     <header className="header">
       <div className="header-section">
         <h1>Mount Thabore Central School</h1>
@@ -27,6 +29,8 @@ const HeaderNavbar = () => {
         <p><i className="fas fa-phone-volume"></i>Phone: +91 484-2982464</p>
       </div>
     </header>
+
+
       <Navbar bg="light" data-bs-theme="light">
         <Container>
           <Navbar.Brand href="#home">MTCS</Navbar.Brand>
@@ -41,6 +45,8 @@ const HeaderNavbar = () => {
           </Nav>
         </Container>
       </Navbar>
+
+
       <Routes>
         <Route path='/' element={<Home />}></Route>
         <Route path='/about' element={<About />}></Route>
@@ -50,6 +56,8 @@ const HeaderNavbar = () => {
         <Route path='/blog' element={<Blog />}></Route>
         <Route path='/contactus' element={<Contact />}></Route>
       </Routes>
+
+      
     </>
   )
 }

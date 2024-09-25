@@ -1,9 +1,10 @@
 import React from 'react'
+import BreadCrumb from '../components/BreadCrumb'
 
 const Teachers = () => {
   return (
     <div>
-        <h1>Teachers Page</h1>
+        <BreadCrumb pagename={'Teachers'}/>
     </div>
   )
 }
