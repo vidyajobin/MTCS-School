@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +35,39 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+/*===============
+1. Header CSS 
+=================*/
+/* src/components/Header.css */
+.header {
+  display: flex;
+  justify-content: space-between; /* Distributes sections evenly */
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #668cff; /* Light background color */
+  color: #ffffff;
+  /* border-bottom: 2px solid #ddd; */
+}
+
+.header-section {
+  flex: 1; /* Equal width for all sections */
+  text-align: center;
+}
+
+.header-section h1 {
+  color: #ff0066;
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.header-section p {
+  margin: 5px 0;
+  font-size: 1em;
+}
+
+.header-section i {
+  margin-right: 8px; /* Adds some space between the icon and the text */
+  font-size: 1.2em;  /* Adjust the size of the icons */
 }
