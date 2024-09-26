@@ -33,7 +33,7 @@ const HeaderNavbar = () => {
 
       <Navbar bg="light" data-bs-theme="light">
         <Container>
-          <Navbar.Brand href="#home">MTCS</Navbar.Brand>
+          <Navbar.Brand href="#home" className="custom-navbar-brand" style={{color:'#616161', fontSize: '2rem'}}>MTCS</Navbar.Brand>
           <Nav className="ms-auto">
             <Nav.Link as={Link} to="/">Home</Nav.Link>
             <Nav.Link as={Link} to="/about">About</Nav.Link>

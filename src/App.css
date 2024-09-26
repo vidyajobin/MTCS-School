@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="styleshee');
+
 .App {
   text-align: center;
 }
@@ -40,19 +42,17 @@
 /*===============
 1. Header CSS 
 =================*/
-/* src/components/Header.css */
 .header {
   display: flex;
-  justify-content: space-between; /* Distributes sections evenly */
+  justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: #668cff; /* Light background color */
+  background-color: #668cff;
   color: #ffffff;
-  /* border-bottom: 2px solid #ddd; */
 }
 
 .header-section {
-  flex: 1; /* Equal width for all sections */
+  flex: 1;
   text-align: center;
 }
 
@@ -68,6 +68,14 @@
 }
 
 .header-section i {
-  margin-right: 8px; /* Adds some space between the icon and the text */
-  font-size: 1.2em;  /* Adjust the size of the icons */
+  margin-right: 8px;
+}
+
+
+
+/* SPECIFIC STYLING FOR NAVBAR */
+
+.custom-navbar-brand {
+  font-family: 'Poppins','Arial, sans-serif';
+  font-weight: bold;
 }
