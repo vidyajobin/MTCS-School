@@ -4,6 +4,7 @@
 
 .App {
   text-align: center;
+  font-family:'Work Sans',sans-serif;
 }
 
 /* .App-logo {
@@ -49,7 +50,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: #668cff;
+  background-color: #1eaaf1;
   color: #ffffff;
 }
 
@@ -59,14 +60,16 @@
 }
 
 .header-section h1 {
-  color: #ff0066;
+  color: #ea3636;
   margin: 0;
   font-size: 1.5em;
+  font-family: 'Work Sans';
 }
 
 .header-section p {
   margin: 5px 0;
   font-size: 1em;
+  font-family: 'Work Sans';
 }
 
 .header-section i {
@@ -118,7 +121,6 @@
 
 /* PARA TEXT AND MAP */
 
-/* Styles for flexbox container */
 .flex-container {
   display: flex;
   justify-content: space-between;
@@ -128,7 +130,6 @@
   gap: 120px;
 }
 
-/* Styles for text container */
 .text-container {
   flex: 1;
   margin-right: 20px;
@@ -161,7 +162,7 @@
   margin-top: 40px;
 }
 
-/* Styles for map container */
+
 .map-container {
   flex: 1;
   background-color: rgb(243, 243, 243);
@@ -181,5 +182,53 @@
   margin-top: 20px;
   font-size: 25px;
 }
+
+
+/* ///////////////  SCHOOL FEES PAGE  /////////////// */
+
+.fees-cards-flex{
+  display: flex;
+  justify-content: center;
+  gap: 30px; 
+  margin-bottom: 50px;
+}
+
+.fees-text-container{
+  width: 50%; 
+  margin: 50px auto;
+}
+
+.fees-wrapper p{
+  color:rgb(94, 94, 94)
+}
+
+.fees-wrapper h3{
+  color:rgb(24, 24, 24);
+  margin-bottom: 40px;
+}
+
+/* FEES CARDS */
+
+.fees-card-wrapper{
+  background-color: rgb(244, 244, 244);
+  width:350px;
+  height: 340px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 10px 10px 1px rgba(0, 0, 0, 0.3); 
+  overflow:hidden;
+}
+
+.fees-card-wrapper h4{
+  margin-top: 20px;
+}
+
+.fees-card-wrapper img{
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  margin-top: 20px
+}
+
 
 
