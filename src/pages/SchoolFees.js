@@ -16,6 +16,8 @@ const SchoolFees = () => {
         <FeesCards />
         <FeesCards />
         </div>
+        <h3 style={{ marginBottom: '10px' }}>Bus Fees</h3>
+        <p>Conveyance fee should be remitted monthly. The fee varies according to the distance to various destinations.</p>
         </div>
     </div>
   )
