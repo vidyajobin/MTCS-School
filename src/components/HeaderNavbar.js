@@ -1,13 +1,13 @@
 import React from 'react'
 import {Container, Nav, Navbar} from "react-bootstrap";
-import { Link, Route, Routes } from 'react-router-dom';
-import Home from '../pages/Home';
-import About from '../pages/About';
-import Teachers from '../pages/Teachers';
-import Academics from '../pages/Academics';
-import SchoolFees from '../pages/SchoolFees';
-import Blog from '../pages/Blog';
-import Contact from '../pages/Contact';
+import { Link } from 'react-router-dom';
+// import Home from '../pages/Home';
+// import About from '../pages/About';
+// import Teachers from '../pages/Teachers';
+// import Academics from '../pages/Academics';
+// import SchoolFees from '../pages/SchoolFees';
+// import Blog from '../pages/Blog';
+// import Contact from '../pages/Contact';
 
 const HeaderNavbar = () => {
   return (
@@ -47,7 +47,7 @@ const HeaderNavbar = () => {
       </Navbar>
 
 
-      <Routes>
+      {/* <Routes>
         <Route path='/' element={<Home />}></Route>
         <Route path='/about' element={<About />}></Route>
         <Route path='/teachers' element={<Teachers />}></Route>
@@ -55,7 +55,7 @@ const HeaderNavbar = () => {
         <Route path='/schoolfees' element={<SchoolFees />}></Route>
         <Route path='/blog' element={<Blog />}></Route>
         <Route path='/contactus' element={<Contact />}></Route>
-      </Routes>
+      </Routes> */}
 
       
     </>
