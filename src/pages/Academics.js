@@ -3,11 +3,58 @@ import BreadCrumb from '../components/BreadCrumb'
 import AcademicsCard from '../components/AcademicsCard'
 
 const Academics = () => {
+
+  const cardData = [
+    {
+      image:"/images/course-2.jpg",
+      heading: "Pre-KG",
+      subheading: "Class time: 9:00am - 3:45pm",
+      content: 
+        {
+          type: 'text',
+          text: 'This program concentrates on kids having an enhancing knowledge through fun and play. Tuning in to stories, number ideas, pre-composing and phonic aptitudes help create dialect and vocabulary. Apart from this exercises, yoga, music will aid in the holistic development. Formal pre-writing literacy and numeracy activities are also taught.'
+        },        
+      
+    },
+    {
+      heading: "Secondary Section Curriculum",
+      subheading: "Overview of Secondary Education",
+      content: [
+        {
+          type: 'text',
+          text: 'Secondary section comprises Class VI – VIII. The curriculum focuses on preparing students for the CBSE exams. The subjects taught are:'
+        },
+        {
+          type: 'bullet',
+          items: [
+            "English",
+            "Hindi / Malayalam",
+            "Mathematics",
+            "Science",
+            "Social science",
+            "Physical and Health Education",
+            "General Knowledge",
+            "Moral Science / Value Education",
+            "Computer Education"
+          ]
+        }
+      ]
+    },
+    // Add more card data as needed
+  ];
+  
+
   return (
     <div>
         <BreadCrumb pagename={'Academics'} />
+        <AcademicsCard
+        imageUrl="/images/course-1.jpg?height=480&width=440"
+        heading="Lower Kindergarden (LKG)"
+        subheading="9:00am - 3:45pm"
+        content={cardData}
+        />
         
-        <h1 className='text-5xl font-bold mb-5 mt-16'><span style={{color: '#5d50c6'}}>The</span> <span style={{color: 'orange'}}>Kindergarden</span></h1>
+        {/* <h1 className='text-5xl font-bold mb-5 mt-16'><span style={{color: '#5d50c6'}}>The</span> <span style={{color: 'orange'}}>Kindergarden</span></h1>
         <div className='flex justify-center '>
         <p className='mb-9 w-2/3 text-center' style={{color:'rgba(0, 0, 0, 0.5)'}}>The curriculum that we offer here is a happy blend of child oriented and teacher centred methodologies, focusing on to play way method. The aim is the development of total personality of the child.The Kindergarden is a preschool educational approch based on playing ,singing,practical activities such as drawing,and social intraction as part of the transition from home to school</p>
         </div>
@@ -45,7 +92,17 @@ const Academics = () => {
         imageUrl="/images/course-1.jpg?height=480&width=440"
         heading="Lower Kindergarden (LKG)"
         subheading="9:00am - 3:45pm"
-        paragraph="Our LKG programme is equipped with the best syllabus to suffice all your child's intellectual and physical needs and prepare them to recive the furture education that will be imparted to them inthe right way.Reading writing and speaking become easy for kids with the help of our advanced curriculum devised with the input of our trained teachers."
+        paragraph="Primary section includes Class I - V. The syllabus followed is as per CBSE scheme. The subjects taught are:
+
+English
+Hindi / Malayalam
+Mathematics
+Science
+Social science
+EVS
+Physical and Health Education
+General Knowledge
+Moral Science / Value Education"
         />
 
         <AcademicsCard 
@@ -61,7 +118,7 @@ const Academics = () => {
         subheading="9:00am - 3:45pm"
         paragraph="Our LKG programme is equipped with the best syllabus to suffice all your child's intellectual and physical needs and prepare them to recive the furture education that will be imparted to them inthe right way.Reading writing and speaking become easy for kids with the help of our advanced curriculum devised with the input of our trained teachers."
         />
-        </div>
+        </div> */}
         
     </div>
   )
