@@ -8,7 +8,7 @@ const Academics = () => {
     {
       image:"/images/course-2.jpg",
       heading: "Pre-KG",
-      subheading: "Class time: 9:00am - 3:45pm",
+      subheading: "9:00am - 3:45pm",
       content: 
         {
           type: 'text',
@@ -17,6 +17,7 @@ const Academics = () => {
       
     },
     {
+      image:"/images/course-2.jpg",
       heading: "Secondary Section Curriculum",
       subheading: "Overview of Secondary Education",
       content: [
@@ -47,12 +48,26 @@ const Academics = () => {
   return (
     <div>
         <BreadCrumb pagename={'Academics'} />
-        <AcademicsCard
+        {/* <AcademicsCard
         imageUrl="/images/course-1.jpg?height=480&width=440"
         heading="Lower Kindergarden (LKG)"
         subheading="9:00am - 3:45pm"
         content={cardData}
+        /> */}
+
+        {/* Use map() to iterate over each object in cardData */}
+        <div className='flex'>
+      {cardData.map((card, index) => (
+        
+        <AcademicsCard
+          key={index}              // Unique key for each card
+          imageUrl={card.image}  // Pass image URL for each card
+          heading={card.heading}    // Pass heading for each card
+          subheading={card.subheading} // Pass subheading for each card
+          content={card.content}    // Pass content for each card
         />
+      ))}
+      </div>
         
         {/* <h1 className='text-5xl font-bold mb-5 mt-16'><span style={{color: '#5d50c6'}}>The</span> <span style={{color: 'orange'}}>Kindergarden</span></h1>
         <div className='flex justify-center '>
