@@ -6,7 +6,7 @@ const Academics = () => {
 
   const cardData1 = [
     {
-      image:"/images/course-2.jpg",
+      image:"/images/pre-kg mtcs.jpg",
       heading: "Pre-KG",
       subheading: "9:00am - 3:45pm",
       content: 
@@ -17,7 +17,7 @@ const Academics = () => {
       
     },
     {
-      image:"/images/course-2.jpg",
+      image:"/images/lkg-mtcs.jpg",
       heading: "Lower Kindergarden (LKG)",
       subheading: "9:00am - 3:45pm",
       content: 
@@ -28,7 +28,7 @@ const Academics = () => {
       
     },
     {
-      image:"/images/course-2.jpg",
+      image:"/images/ukg-mtcs.jpg",
       heading: "Upper Kindergarden(UKG)",
       subheading: "9:00am - 3:45pm",
       content: 
@@ -43,7 +43,7 @@ const Academics = () => {
 
   const cardData2 = [
     {
-      image:"/images/course-2.jpg",
+      image:"/images/primary-mtcs.jpg",
       heading: "Primary School",
       subheading: "9.00am - 3.45pm",
       content: [
@@ -68,7 +68,32 @@ const Academics = () => {
       ]
     },
     {
-      image:"/images/course-2.jpg",
+      image:"/images/secondary-mtcs.jpg",
+      heading: "Secondary School",
+      subheading: "9.00am - 3.45pm",
+      content: [
+        {
+          type: 'text',
+          text: 'Secondary section comprises Class VI – VIII. The curriculum focuses on preparing students for the CBSE exams. The subjects taught are:'
+        },
+        {
+          type: 'bullet',
+          items: [
+            "English",
+            "Hindi / Malayalam",
+            "Mathematics",
+            "Science",
+            "Social science",
+            "Physical and Health Education",
+            "General Knowledge",
+            "Moral Science / Value Education",
+            "Computer Education"
+          ]
+        }
+      ]
+    },
+    {
+      image:"/images/higher-secondary-mtcs.jpg",
       heading: "High School",
       subheading: "9.00am - 3.45pm",
       content: [
@@ -92,37 +117,13 @@ const Academics = () => {
         }
       ]
     },
-    {
-      image:"/images/course-2.jpg",
-      heading: "Secondary Section Curriculum",
-      subheading: "9.00am - 3.45pm",
-      content: [
-        {
-          type: 'text',
-          text: 'Secondary section comprises Class VI – VIII. The curriculum focuses on preparing students for the CBSE exams. The subjects taught are:'
-        },
-        {
-          type: 'bullet',
-          items: [
-            "English",
-            "Hindi / Malayalam",
-            "Mathematics",
-            "Science",
-            "Social science",
-            "Physical and Health Education",
-            "General Knowledge",
-            "Moral Science / Value Education",
-            "Computer Education"
-          ]
-        }
-      ]
-    },
+    
     // Add more card data as needed
   ];
 
   const cardData3 = [
     {
-      image:"/images/course-2.jpg",
+      image:"/images/karate-mtcs.jpg",
       heading: "Karate",
       subheading: "9.00am - 3.45pm",
       content: [
@@ -144,7 +145,7 @@ const Academics = () => {
       ]
     },
     {
-      image:"/images/course-2.jpg",
+      image:"/images/art-mtcs.jpg",
       heading: "ART & CRAFT",
       subheading: "9.00am - 3.45pm",
       content: [
@@ -166,28 +167,7 @@ const Academics = () => {
       ]
     },
     {
-      image:"/images/course-2.jpg",
-      heading: "STUDENTS CLUB",
-      subheading: "Overview of Secondary Education",
-      content: [
-        {
-          type: 'text',
-          text: 'It’s just a place where children’s of various age groups spend time with each other, learning and honing their talents. The school provides ample opportunities for students to develop their talents in co -curricular fields. All activities organized in the school are based on house system. Following activities are promoted in school.'
-        },
-        {
-          type: 'bullet',
-          items: [
-            "Science & Math’s Club",
-  "Social Club",
-  "Eco Club",
-  "Language Club",
-  "IT Club"
-          ]
-        }
-      ]
-    },
-    {
-      image:"/images/course-2.jpg",
+      image:"/images/abacus-mtcs.jpg",
       heading: "ABACUS",
       subheading: "Overview of Secondary Education",
       content: [
@@ -209,7 +189,29 @@ const Academics = () => {
       ]
     },
     {
-      image:"/images/course-2.jpg",
+      image:"/images/clubs-mtcs.jpg",
+      heading: "STUDENTS CLUB",
+      subheading: "Overview of Secondary Education",
+      content: [
+        {
+          type: 'text',
+          text: 'It’s just a place where children’s of various age groups spend time with each other, learning and honing their talents. The school provides ample opportunities for students to develop their talents in co -curricular fields. All activities organized in the school are based on house system. Following activities are promoted in school.'
+        },
+        {
+          type: 'bullet',
+          items: [
+            "Science & Math’s Club",
+  "Social Club",
+  "Eco Club",
+  "Language Club",
+  "IT Club"
+          ]
+        }
+      ]
+    },
+
+    {
+      image:"/images/extra-mtcs.jpg",
       heading: "CO-CURRICULAR ACTIVITIES",
       subheading: "9:00am - 3:45pm",
       content: 
@@ -220,7 +222,7 @@ const Academics = () => {
       
     },
     {
-      image:"/images/course-2.jpg",
+      image:"/images/openhouse-mtcs.jpg",
       heading: "OPEN HOUSE",
       subheading: "9:00am - 3:45pm",
       content: 
