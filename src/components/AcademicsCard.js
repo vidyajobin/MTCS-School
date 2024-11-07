@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function AcademicsCard({ imageUrl, heading, subheading, content }) {
   return (
-    <div className="flex flex-col md:flex-row w-[40.0vw] h-[94.5vh] rounded-lg shadow-lg bg-white overflow-hidden m-4">
-      <div className="md:w-1/2 h-full">
+    <div className="flex flex-col md:flex-row w-[40vw] rounded-lg shadow-lg bg-white overflow-hidden m-4">
+      <div className="md:w-1/2">
         <img
           className="w-full h-full object-cover"
           src={imageUrl}
@@ -11,7 +11,6 @@ export default function AcademicsCard({ imageUrl, heading, subheading, content }
         />
       </div>
 
-      
       <div className="md:w-1/2 p-6 flex flex-col">
         <h2 className="text-2xl font-bold mb-2 text-custom-blue">{heading}</h2>
         {subheading && (
@@ -21,7 +20,7 @@ export default function AcademicsCard({ imageUrl, heading, subheading, content }
         )}
 
         {/* Render content */}
-        <div className="text-gray-600 text-base flex-grow overflow-auto scrollable-content">
+        <div className="text-gray-600 text-base flex-grow">
           {/* Check if content is an array */}
           {Array.isArray(content) ? (
             content.map((contentItem, index) => (
@@ -30,7 +29,7 @@ export default function AcademicsCard({ imageUrl, heading, subheading, content }
                 {contentItem.type === 'text' && (
                   <p className="mb-4">{contentItem.text}</p>
                 )}
-                
+
                 {/* Render bullet points */}
                 {contentItem.type === 'bullet' && (
                   <ul className="list-disc pl-6 mb-4">
@@ -58,7 +57,6 @@ export default function AcademicsCard({ imageUrl, heading, subheading, content }
           )}
         </div>
       </div>
-
     </div>
   );
 }
