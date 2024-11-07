@@ -10,6 +10,8 @@ export default function AcademicsCard({ imageUrl, heading, subheading, content }
           alt={heading}
         />
       </div>
+
+      
       <div className="md:w-1/2 p-6 flex flex-col">
         <h2 className="text-2xl font-bold mb-2 text-custom-blue">{heading}</h2>
         {subheading && (
@@ -56,6 +58,7 @@ export default function AcademicsCard({ imageUrl, heading, subheading, content }
           )}
         </div>
       </div>
+
     </div>
   );
 }
