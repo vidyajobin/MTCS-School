@@ -1,13 +1,24 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 
 export default function AcademicsCard({ imageUrl, heading, subheading, content }) {
   return (
-    <div className="flex flex-col md:flex-row w-[40vw] rounded-lg shadow-lg bg-white overflow-hidden m-4">
+    <motion.div
+      className="flex flex-col md:flex-row w-[40vw] rounded-lg shadow-lg bg-white overflow-hidden m-4"
+      initial={{ opacity: 0, y: 100 }} // Initial state: slightly lower position to exaggerate the entrance
+      whileInView={{ opacity: 1, y: 0 }} // Final state: fully visible
+      transition={{
+        duration: 2, // Increased duration for slower, more prominent animation
+        ease: [0.25, 1, 0.5, 1], // Custom cubic-bezier easing for a smooth, bouncy effect
+      }}
+      viewport={{ once: true }} // Only animate once when in view
+    >
       <div className="md:w-1/2">
         <img
           className="w-full h-full object-cover"
           src={imageUrl}
           alt={heading}
+          loading="lazy"
         />
       </div>
 
@@ -19,18 +30,13 @@ export default function AcademicsCard({ imageUrl, heading, subheading, content }
           </h3>
         )}
 
-        {/* Render content */}
         <div className="text-gray-600 text-base flex-grow">
-          {/* Check if content is an array */}
           {Array.isArray(content) ? (
             content.map((contentItem, index) => (
               <div key={index}>
-                {/* Render text content */}
                 {contentItem.type === 'text' && (
                   <p className="mb-4">{contentItem.text}</p>
                 )}
-
-                {/* Render bullet points */}
                 {contentItem.type === 'bullet' && (
                   <ul className="list-disc pl-6 mb-4">
                     {contentItem.items.map((bulletItem, bulletIndex) => (
@@ -41,7 +47,6 @@ export default function AcademicsCard({ imageUrl, heading, subheading, content }
               </div>
             ))
           ) : (
-            // If content is a single object, handle it
             <>
               {content.type === 'text' && (
                 <p className="mb-4">{content.text}</p>
@@ -57,6 +62,6 @@ export default function AcademicsCard({ imageUrl, heading, subheading, content }
           )}
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }

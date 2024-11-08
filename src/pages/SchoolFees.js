@@ -12,9 +12,11 @@ const SchoolFees = () => {
         </div>
         <h3>Fee structure per instalment</h3>
         <div className='fees-cards-flex'>
-        <FeesCards />
-        <FeesCards />
-        <FeesCards />
+        <FeesCards classheading={"KG Classes"} fees={"3650"} imageUrl={"/images/kg-classes.jpg"}/>
+        <FeesCards classheading={"1-4 Classes"} fees={"3700"} imageUrl={"/images/1to4.jpg"}/>
+        <FeesCards classheading={"5-7 Classes"} fees={"3800"} imageUrl={"/images/5to7.jpg"}/>
+        <FeesCards classheading={"8-10 Classes"} fees={"4300"} imageUrl={"/images/8to10.jpg"}/>
+        
         </div>
         <h3 style={{ marginBottom: '10px' }}>Bus Fees</h3>
         <p>Conveyance fee should be remitted monthly. The fee varies according to the distance to various destinations.</p>

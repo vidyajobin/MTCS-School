@@ -1,11 +1,11 @@
 import React from 'react'
 
-const FeesCards = () => {
+const FeesCards = ({classheading,fees,imageUrl}) => {
   return (
     <div className='fees-card-wrapper'>
-        <h4 style={{color:'#1eaaf1'}}>KG Classes</h4>
-        <p><span style={{color:'orange'}}>₹ 3650</span> / term</p>
-        <img src='/images/Price-KG.jpg' alt='a classroom of kg students'></img>
+    <h4 style={{color:'#1eaaf1'}}>{classheading}</h4>
+        <p><span style={{color:'orange'}}>₹{fees} </span> / term</p>
+        <img src={imageUrl} alt='a classroom of kg students'></img>
     </div>
   )
 }
