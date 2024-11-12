@@ -4,50 +4,13 @@
 @tailwind components;  
 @tailwind utilities;
 
-
+/* Common Styles */
 .App {
   text-align: center;
-  font-family:'Work Sans',sans-serif;
+  font-family: 'Work Sans', sans-serif;
 }
 
-/* .App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
-
-/*===============
-1. Header CSS 
-=================*/
+/* Header */
 .header {
   display: flex;
   justify-content: space-between;
@@ -79,28 +42,21 @@
   margin-right: 8px;
 }
 
-
-
-/* SPECIFIC STYLING FOR NAVBAR */
-
+/* Navbar */
 .custom-navbar-brand {
-  font-family: 'Poppins',Arial, sans-serif;
+  font-family: 'Poppins', Arial, sans-serif;
   font-weight: bold;
 }
 
-
-/* ///////////////  CONTACT US PAGE  /////////////// */
-
-.cards-container{
+/* Contact Us Page */
+.cards-container {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 100px 10px;
 }
 
-/* SIMPLE CARDS */
-
-.card-container{
+.card-container {
   padding: 25px;
   margin: 30px;
   width: 280px;
@@ -108,7 +64,7 @@
   background-color: rgb(241, 241, 241);
   box-shadow: 1px 10px 10px 1px rgba(0, 0, 0, 0.3);
   border-radius: 2px;
-  border:1px solid rgb(237, 237, 237);
+  border: 1px solid rgb(237, 237, 237);
 }
 
 .card-text {
@@ -116,15 +72,13 @@
   color: rgba(60, 60, 60, 0.71);
 }
 
-.card-heading{
+.card-heading {
   font-family: sans-serif;
   color: rgb(46, 46, 46);
   margin-bottom: 15px;
 }
 
-
-/* PARA TEXT AND MAP */
-
+/* Para Text and Map */
 .flex-container {
   display: flex;
   justify-content: space-between;
@@ -147,25 +101,21 @@
   font-size: 30px;
   margin-bottom: 20px;
   margin-top: 20px;
-  font-family: 'Poppins','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: rgb(25, 25, 25)
+  font-family: 'Poppins', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(25, 25, 25);
 }
-
-
 
 .text-container p {
   font-size: 16px;
   line-height: 1.5;
   padding: 0px 50px;
-  font-family: 'Work Sans',sans-serif;
-  color:rgb(101, 101, 101);
-
+  font-family: 'Work Sans', sans-serif;
+  color: rgb(101, 101, 101);
 }
 
-.para-1{
+.para-1 {
   margin-top: 40px;
 }
-
 
 .map-container {
   flex: 1;
@@ -180,69 +130,64 @@
   padding: 20px;
 }
 
-.map-container h2{
+.map-container h2 {
   color: rgb(39, 39, 39);
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin-top: 20px;
   font-size: 25px;
 }
 
-
-/* ///////////////  SCHOOL FEES PAGE  /////////////// */
-
-.fees-cards-flex{
+/* School Fees Page */
+.fees-cards-flex {
   display: flex;
   justify-content: center;
-  gap: 30px; 
+  gap: 30px;
   margin-bottom: 50px;
 }
 
-.fees-text-container{
-  width: 50%; 
+.fees-text-container {
+  width: 50%;
   margin: 50px auto;
 }
 
-.fees-wrapper p{
-  color:rgb(94, 94, 94)
+.fees-wrapper p {
+  color: rgb(94, 94, 94);
 }
 
-.fees-wrapper h3{
-  color:rgb(24, 24, 24);
+.fees-wrapper h3 {
+  color: rgb(24, 24, 24);
   margin-bottom: 40px;
 }
 
-/* FEES CARDS */
-
-.fees-card-wrapper{
+/* Fees Cards */
+.fees-card-wrapper {
   background-color: rgb(248, 248, 248);
-  width:350px;
+  width: 350px;
   height: 340px;
   margin-bottom: 20px;
   border-radius: 10px;
-  box-shadow: 1px 10px 10px 1px rgba(0, 0, 0, 0.3); 
-  overflow:hidden;
+  box-shadow: 1px 10px 10px 1px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
 }
 
-.fees-card-wrapper h4{
+.fees-card-wrapper h4 {
   margin-top: 20px;
 }
 
-.fees-card-wrapper img{
+.fees-card-wrapper img {
   max-width: 100%;
   max-height: 100%;
   object-fit: cover;
-  margin-top: 20px
+  margin-top: 20px;
 }
 
-
-/* ///////////////  ACADEMICS PAGE  /////////////// */
-
-.AcademicsCardContainer{
-  font-family: "Work Sans",Arial, Helvetica, sans-serif;
+/* Academics Page */
+.AcademicsCardContainer {
+  font-family: "Work Sans", Arial, Helvetica, sans-serif;
   margin: 0px 70px;
 }
 
-/* Customize the scrollbar track (background of the scrollbar) */
+/* Scrollable Content */
 .scrollable-content {
   overflow-y: auto; /* Enable vertical scrolling */
   max-height: 100%; /* Ensure content height is restricted to the card */

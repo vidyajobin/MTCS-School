@@ -1,11 +1,13 @@
 import React from 'react'
 import BreadCrumb from '../components/BreadCrumb'
+import PrincipalSection from '../components/PrincipalSection'
 
 const Teachers = () => {
   return (
-    <div>
+    <>
         <BreadCrumb pagename={'Teachers'}/>
-    </div>
+        <PrincipalSection />
+    </>
   )
 }
 
