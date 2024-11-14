@@ -3,11 +3,12 @@ import { Container, Row, Col, Image } from 'react-bootstrap';
 
 const PrincipalSection = () => {
   return (
-    <Container className="principal-section px-5 m-5">
+    <div className="d-flex justify-content-center">
+    <Container className="principal-section px-5 m-5 rounded shadow-lg border" >
       <Row className="align-items-center">
         <Col md={5} className="text-center">
           <Image
-            src="./Image/management/principal-nobg.png"
+            src="./Image/management/principal.jpg"
             alt="Principal"
             fluid
             rounded
@@ -15,7 +16,8 @@ const PrincipalSection = () => {
                 width: '490px',
                 height: '300px',
                 objectFit: 'cover',
-                objectPosition: '50% 25%'
+                objectPosition: '50% 22%',
+                marginTop:'20px'
               }}
           />
           <div className="principal-info mt-3">
@@ -23,7 +25,8 @@ const PrincipalSection = () => {
             <p className="principal-designation">Principal</p>
           </div>
         </Col>
-        <Col md={7} className="principal-message">
+        <Col md={7} className="principal-message " >
+        <i class="fa-solid fa-thumbtack" style={{ fontSize: '2rem', color: '#41A1F0', marginBottom:"10px" }}></i>
           <h2>Message from the Principal</h2>
           <p>
             Dear students, parents, and staff,
@@ -41,6 +44,7 @@ const PrincipalSection = () => {
         </Col>
       </Row>
     </Container>
+    </div>
   );
 };
 

@@ -211,3 +211,107 @@
 .scrollable-content::-webkit-scrollbar-thumb:hover {
   background-color: #555; /* Change the thumb color when hovered */
 }
+
+
+
+/* ===============
+5. Teachers Section
+================== */
+
+.teachers-section {
+  padding: 4em 50px; /* 50px padding on the left and right */
+  background: #f8f9fa;
+}
+
+.heading-section h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #000;
+}
+
+.heading-section span {
+  color: #fdc000;
+}
+
+.text p {
+  color: #707070;
+}
+
+.staff {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative; /* Add relative positioning */
+}
+
+.img-wrap {
+  height: 250px;
+  position: relative; /* For absolute positioning of icons */
+}
+
+.img {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.social-icons {
+  position: absolute;
+  bottom: 0; /* Position at the bottom */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center align */
+  display: flex;
+  opacity: 0; /* Hide icons by default */
+  transition: opacity 0.3s ease; /* Smooth transition for visibility */
+}
+
+.social-icons a {
+  margin: 0 10px; /* Space between icons */
+  font-size: 24px; /* Size of icons */
+  color: #ffffff; /* Color of icons */
+}
+
+.staff:hover .social-icons {
+  opacity: 1; /* Show icons on hover */
+}
+
+.text h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.text .position {
+  font-size: 16px;
+  color: #fdc000;
+}
+
+.faded p {
+  color: #808080;
+}
+
+/* Ensure columns remain equally spaced */
+.teachers-section .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.teachers-section .row > * {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .teachers-section {
+    padding: 2em 20px; /* Reduced padding for smaller screens */
+  }
+
+  .teachers-section .row > * {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+/* //////////////////////// PRINCIPAL SECTION ////////////////////// */
