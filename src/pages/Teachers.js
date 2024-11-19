@@ -14,72 +14,72 @@ const Teachers = () => {
     {
       name: "Beena K A",
       subject: "BA BEd [Social Studies]",
-      imageUrl: ""
+      imageUrl: "/image/teachers/beena-k-a.jpg"
     },
     {
       name: "Mary Mathew",
       subject: "NTTC",
-      imageUrl: ""
+      imageUrl: "/image/teachers/mary-mathew.jpg"
     },
     {
       name: "Priya Varghese",
       subject: "Msc BEd [Mathematics]",
-      imageUrl: ""
+      imageUrl: "/image/teachers/priya-varghese.jpg"
     },
     {
       name: "Rany John",
       subject: "PDC NTTC",
-      imageUrl: ""
+      imageUrl: "/image/teachers/rany-john.jpg"
     },
     {
       name: "Revathy Rajan",
       subject: "MA BEd [Malayalam]",
-      imageUrl: ""
+      imageUrl: "/image/teachers/revathy-rajan.jpg"
     },
     {
       name: "Sarala Devi",
       subject: "M.Com PGDCA [Computer]",
-      imageUrl: ""
+      imageUrl: "/image/teachers/sarala-devi.jpg"
     },
     {
       name: "Seby K S",
       subject: "Bsc PGDCA [Mathematics]",
-      imageUrl: ""
+      imageUrl: "/image/teachers/seby-k-s.jpg"
     },
     {
       name: "Shaly Shaju",
       subject: "TTC",
-      imageUrl: ""
+      imageUrl: "/image/teachers/shaly-shaju.jpg"
     },
     {
       name: "Siny P G",
       subject: "Hindi Vidhwan",
-      imageUrl: ""
+      imageUrl: "/image/teachers/siny-p-g.jpg"
     },
     {
       name: "Anju Basil",
       subject: "MA BEd [Social Science]",
-      imageUrl: ""
+      imageUrl: "/image/teachers/anju-basil.jpg"
     },
     {
       name: "Kesia P B",
       subject: "MA BEd [English]",
-      imageUrl: ""
+      imageUrl: "/image/teachers/Kesia-p-b.jpg"
     },
     {
       name: "Sreedevi E P",
       subject: "Bsc BEd [Science]",
-      imageUrl: ""
+      imageUrl: "/image/teachers/sreedevi-e-p.jpg"
     },
     {
       name: "Neethu P S",
       subject: "MA BEd [English]",
-      imageUrl: ""
+      imageUrl: "/image/teachers/neethu-p-s.png"
     },
     {
       name: "Blessy Alias",
       subject: "Bsc TTC [Computer]",
-      imageUrl: ""
+      imageUrl: "/image/teachers/blessy-alias.jpg"
     }
   ];
   

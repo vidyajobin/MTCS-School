@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import 'font-awesome/css/font-awesome.min.css'; // Make sure to include this
+import '@fortawesome/fontawesome-free/css/all.min.css';
+ // Make sure to include this
 
 const ServiceSection = () => {
   return (

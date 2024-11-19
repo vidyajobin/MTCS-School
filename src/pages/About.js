@@ -14,7 +14,7 @@ const About = () => {
               className="order-md-last wrap-about py-5 wrap-about bg-light px-1"
             >
               <div className="text px-4 ftco-animate">
-                <h2 className="mb-4">
+                <h2 className="mb-4 font-bold">
                   Welcome to Mount Thabore Central School
                 </h2>
                 <p>

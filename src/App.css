@@ -314,4 +314,84 @@
   }
 }
 
+/* ////////////////////////SERVICE SECTION//////////////////////////////// */
+
+/* =================
+2. Service Section
+==================== */
+
+.ftco-services {
+  position: relative;
+  margin-top: 0;  /* No space between carousel and services */
+}
+
+.icon-wrapper {
+  position: absolute;
+  top: -50px;  /* Move the icon higher, half above the carousel */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;  /* Keep the original size */
+  height: 100px; /* Keep the original size */
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 3;  /* Ensure icon is above both sections */
+}
+
+.icon {
+  font-size: 2.5rem !important; /* Increase icon size */
+  color: #007bff; /* Icon color */
+}
+
+/* Add specific styles for different icon types if needed */
+.icon.flaticon-teacher {
+  color: #28a745; /* Example color for teacher icon */
+}
+
+.icon.flaticon-reading {
+  color: #17a2b8; /* Example color for reading icon */
+}
+
+.icon.flaticon-books {
+  color: #dc3545; /* Example color for books icon */
+}
+
+.icon.flaticon-diploma {
+  color: #fd7e14; /* Example color for diploma icon */
+}
+
+.media-body {
+  margin-top: 3rem;  /* Adjust to push the content below */
+}
+
+.bg-primary {
+  background-color: #007bff;
+}
+
+.bg-tertiary {
+  background-color: #6f42c1;
+}
+
+.bg-fifth {
+  background-color: #e83e8c;
+}
+
+.bg-quarternary {
+  background-color: #fd7e14;
+}
+
+.heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff; /* Heading text color */
+}
+
+.media-body p {
+  color: #fff; /* Paragraph text color */
+}
+
+
 /* //////////////////////// PRINCIPAL SECTION ////////////////////// */

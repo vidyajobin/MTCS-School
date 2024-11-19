@@ -26,8 +26,8 @@ const PrincipalSection = () => {
           </div>
         </Col>
         <Col md={7} className="principal-message " >
-        <i class="fa-solid fa-thumbtack" style={{ fontSize: '2rem', color: '#41A1F0', marginBottom:"10px" }}></i>
-          <h2>Message from the Principal</h2>
+        {/* <i class="fa-solid fa-thumbtack" style={{ fontSize: '2rem', color: '#41A1F0', marginBottom:"10px" }}></i> */}
+          <h2 style={{color: "#1eaaf1"}}>Message from the Principal</h2>
           <p>
             Dear students, parents, and staff,
             <br />
