@@ -11,6 +11,7 @@ import AnnualDay from '../pages/AnnualDay';
 import SportsDay from '../pages/SportsDay';
 import CulturalEvents from '../pages/CulturalEvents'
 import SustainabilityEvents from '../pages/SustainabilityEvents'
+import Cbse from '../pages/Cbse';
 
 const RoutesConfig = () => {
   return (
@@ -27,6 +28,7 @@ const RoutesConfig = () => {
       <Route path="/sportsday" element={<SportsDay />} /> 
       <Route path="/culturalevents" element={<CulturalEvents />} /> 
       <Route path="/sustainabilityevents" element={<SustainabilityEvents />} /> 
+      <Route path="/cbse" element={<Cbse />} /> 
     </Routes>
     </>
   );

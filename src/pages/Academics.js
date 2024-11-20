@@ -2,7 +2,7 @@ import React from 'react'
 import BreadCrumb from '../components/BreadCrumb'
 import AcademicsCard from '../components/AcademicsCard'
 
-const Academics = () => {
+const Academics = ({show=true}) => {
 
   const cardData1 = [
     {
@@ -239,7 +239,7 @@ const Academics = () => {
 
   return (
     <div>
-        <BreadCrumb pagename={'Academics'} />
+        {show && <BreadCrumb pagename={'Academics'} />}
 
       <h1 className='text-5xl font-bold mb-5 mt-16'><span style={{color: '#5d50c6'}}>The</span> <span style={{color: 'orange'}}>Kindergarden</span></h1>
         <div className='flex justify-center '>

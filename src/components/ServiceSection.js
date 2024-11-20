@@ -55,7 +55,7 @@ const ServiceSection = () => {
               <div className="media-body p-2 mt-5">
                 <h3 className="heading">Certification</h3>
                 <p>
-                  Even the all-powerful Pointing has no control about the blind texts; it is almost unorthographic.
+                  Affiliated to the Central Board of Secondary Education (CBSE).
                 </p>
               </div>
             </div>

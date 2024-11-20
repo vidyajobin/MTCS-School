@@ -6,7 +6,7 @@ const HomeSlider = () => {
       <Carousel.Item>
       <img
           className="d-block w-100"
-          src="/images/bg_1.jpg"
+          src="/images/mtcs3_enhanced.jpg"
           alt="First slide"
           style={{maxHeight: '500px', objectFit: 'cover'}}
         />
@@ -18,16 +18,16 @@ const HomeSlider = () => {
       <Carousel.Item>
       <img
           className="d-block w-100"
-          src="/images/bg_2.jpg"
+          src="/images/mtcs2_enhanced.jpg"
           alt="First slide"
           style={{maxHeight: '500px', objectFit: 'cover'}}
         />
-        <Carousel.Caption>
+        {/* <Carousel.Caption>
           <h3>Second slide label</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
+        </Carousel.Caption> */}
       </Carousel.Item>
-      <Carousel.Item>
+      {/* <Carousel.Item>
       <img
           className="d-block w-100"
           src="/images/bg_3.jpg"
@@ -40,7 +40,7 @@ const HomeSlider = () => {
             Praesent commodo cursus magna, vel scelerisque nisl consectetur.
           </p>
         </Carousel.Caption>
-      </Carousel.Item>
+      </Carousel.Item> */}
     </Carousel>
   );
 }

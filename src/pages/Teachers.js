@@ -3,7 +3,7 @@ import BreadCrumb from '../components/BreadCrumb'
 import PrincipalSection from '../components/PrincipalSection'
 import { Container, Row, Col } from "react-bootstrap";
 
-const Teachers = () => {
+const Teachers = ({show=true }) => {
 
   const teachers = [
     {
@@ -87,10 +87,8 @@ const Teachers = () => {
   return (
     
     <>
-    <BreadCrumb pagename={'Teachers'}/>
-      <div>
+    {show && <BreadCrumb pagename={'Teachers'}/>}
         <PrincipalSection />
-      </div>
       <section className="teachers-section">
         <Container>
           <Row className="justify-content-center mb-5 pb-2">

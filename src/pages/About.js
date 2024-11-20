@@ -2,10 +2,10 @@ import React from 'react'
 import { Container, Row, Col } from "react-bootstrap";
 import BreadCrumb from '../components/BreadCrumb'
 
-const About = () => {
+const About = ({show=true}) => {
   return (
     <>
-    <BreadCrumb pagename={'About Us'} />
+    {show && <BreadCrumb pagename={'About Us'} />}
     <section className="ftco-section ftco-no-pt ftc-no-pb">
         <Container>
           <Row style={{ marginLeft: '40px', marginRight: '40px',fontSize: '1rem' }} >
