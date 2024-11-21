@@ -69,6 +69,7 @@ const HeaderNavbar = () => {
               href="CBSE/MPD-edit2.pdf"
               target="_blank"
               rel="noopener noreferrer"
+              style={{color:'rgb(0 0 0 / 55%)'}}
             >
               MPD
             </Nav.Link>
