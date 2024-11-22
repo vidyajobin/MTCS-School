@@ -26,7 +26,7 @@ const Footer = () => {
             to="/teachers"
             className="text-[0.9rem] text-text hover:text-primary cursor-pointer transition-all duration-200 custom-link"
           >
-            Our Teachers
+            Our Team
           </Link>
           <Link
             to="/academics"

@@ -1,18 +1,12 @@
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
-// import Home from '../pages/Home';
-// import About from '../pages/About';
-// import Teachers from '../pages/Teachers';
-// import Academics from '../pages/Academics';
-// import SchoolFees from '../pages/SchoolFees';
-// import Blog from '../pages/Blog';
-// import Contact from '../pages/Contact';
+import { CiMenuBurger } from "react-icons/ci";
 
 const HeaderNavbar = () => {
   return (
     <>
-      <header className="header">
+      <header className="header header1">
         <div className="header-section">
           <h1>Mount Thabore Central School</h1>
           <p>
@@ -34,62 +28,65 @@ const HeaderNavbar = () => {
         </div>
       </header>
 
-      <Navbar bg="light" data-bs-theme="light">
+      {/* Responsive Navbar */}
+      <Navbar bg="light" expand="lg" className="custom-navbar">
         <Container>
           <Navbar.Brand
-            href="#home"
+            as={Link}
+            to="/"
             className="custom-navbar-brand"
             style={{ color: "#616161", fontSize: "2rem" }}
           >
+            <img
+              src='images/mtcs-logo-c.jpg'
+              alt="MTCS Logo"
+              style={{ width: "70px", height: "50px", marginRight: "10px" }} // Adjust size and margin as needed
+            />
             MTCS
           </Navbar.Brand>
-          <Nav className="ms-auto">
-            <Nav.Link as={Link} to="/">
-              Home
-            </Nav.Link>
-            <Nav.Link as={Link} to="/about">
-              About
-            </Nav.Link>
-            <Nav.Link as={Link} to="/teachers">
-              Teachers
-            </Nav.Link>
-            <Nav.Link as={Link} to="/academics">
-              Academics
-            </Nav.Link>
-            <Nav.Link as={Link} to="/schoolfees">
-              School Fees
-            </Nav.Link>
-            <Nav.Link as={Link} to="/blog">
-              Blog
-            </Nav.Link>
-            <Nav.Link as={Link} to="/cbse">
-              CBSE
-            </Nav.Link>
-            <Nav.Link
-              href="CBSE/MPD-edit2.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{color:'rgb(0 0 0 / 55%)'}}
-            >
-              MPD
-            </Nav.Link>
-
-            <Nav.Link as={Link} to="/contactus">
-              Contact Us
-            </Nav.Link>
-          </Nav>
+          {/* Navbar Toggle for Mobile */}
+          <Navbar.Toggle aria-controls="basic-navbar-nav">
+            <CiMenuBurger size={30} /> {/* Adjust the size as needed */}
+          </Navbar.Toggle>
+          {/* Collapsible Navbar Links */}
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="ms-auto">
+              <Nav.Link as={Link} to="/">
+                Home
+              </Nav.Link>
+              <Nav.Link as={Link} to="/about">
+                About
+              </Nav.Link>
+              <Nav.Link as={Link} to="/teachers">
+                Our Team
+              </Nav.Link>
+              <Nav.Link as={Link} to="/academics">
+                Academics
+              </Nav.Link>
+              <Nav.Link as={Link} to="/schoolfees">
+                School Fees
+              </Nav.Link>
+              <Nav.Link as={Link} to="/blog">
+                Blog
+              </Nav.Link>
+              <Nav.Link as={Link} to="/cbse">
+                CBSE
+              </Nav.Link>
+              <Nav.Link
+                href="CBSE/MPD-edit2.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "rgb(0 0 0 / 55%)" }}
+              >
+                MPD
+              </Nav.Link>
+              <Nav.Link as={Link} to="/contactus">
+                Contact Us
+              </Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
         </Container>
       </Navbar>
-
-      {/* <Routes>
-        <Route path='/' element={<Home />}></Route>
-        <Route path='/about' element={<About />}></Route>
-        <Route path='/teachers' element={<Teachers />}></Route>
-        <Route path='/academics' element={<Academics />}></Route>
-        <Route path='/schoolfees' element={<SchoolFees />}></Route>
-        <Route path='/blog' element={<Blog />}></Route>
-        <Route path='/contactus' element={<Contact />}></Route>
-      </Routes> */}
     </>
   );
 };
