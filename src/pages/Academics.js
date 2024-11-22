@@ -7,7 +7,7 @@ const Academics = ({show=true}) => {
 
   const cardData1 = [
     {
-      image:"/images/pre-kg mtcs.jpg",
+      image:"/images/pre-kg mtcs-c.jpg",
       heading: "Pre-KG",
       subheading: "9:00am - 3:45pm",
       content: 
@@ -18,7 +18,7 @@ const Academics = ({show=true}) => {
       
     },
     {
-      image:"/images/lkg-mtcs.jpg",
+      image:"/images/lkg-mtcs-c.jpg",
       heading: "Lower Kindergarden (LKG)",
       subheading: "9:00am - 3:45pm",
       content: 
@@ -29,7 +29,7 @@ const Academics = ({show=true}) => {
       
     },
     {
-      image:"/images/ukg-mtcs.jpg",
+      image:"/images/ukg-mtcs-c.jpg",
       heading: "Upper Kindergarden(UKG)",
       subheading: "9:00am - 3:45pm",
       content: 
@@ -44,7 +44,7 @@ const Academics = ({show=true}) => {
 
   const cardData2 = [
     {
-      image:"/images/primary-mtcs.jpg",
+      image:"/images/primary-mtcs-c.jpg",
       heading: "Primary School",
       subheading: "9.00am - 3.45pm",
       content: [
@@ -69,7 +69,7 @@ const Academics = ({show=true}) => {
       ]
     },
     {
-      image:"/images/secondary-mtcs.jpg",
+      image:"/images/secondary-mtcs-c.jpg",
       heading: "Secondary School",
       subheading: "9.00am - 3.45pm",
       content: [
@@ -94,7 +94,7 @@ const Academics = ({show=true}) => {
       ]
     },
     {
-      image:"/images/higher-secondary-mtcs.jpg",
+      image:"/images/higher-secondary-mtcs-c.jpg",
       heading: "High School",
       subheading: "9.00am - 3.45pm",
       content: [
@@ -124,7 +124,7 @@ const Academics = ({show=true}) => {
 
   const cardData3 = [
     {
-      image:"/images/karate-mtcs.jpg",
+      image:"/images/karate-mtcs-c.jpg",
       heading: "Karate",
       subheading: "9.00am - 3.45pm",
       content: [
@@ -146,7 +146,7 @@ const Academics = ({show=true}) => {
       ]
     },
     {
-      image:"/images/art-mtcs.jpg",
+      image:"/images/art-mtcs-c.jpg",
       heading: "ART & CRAFT",
       subheading: "9.00am - 3.45pm",
       content: [
@@ -168,7 +168,7 @@ const Academics = ({show=true}) => {
       ]
     },
     {
-      image:"/images/abacus-mtcs.jpg",
+      image:"/images/abacus-mtcs-c.jpg",
       heading: "ABACUS",
       subheading: "Overview of Secondary Education",
       content: [
@@ -190,7 +190,7 @@ const Academics = ({show=true}) => {
       ]
     },
     {
-      image:"/images/clubs-mtcs.jpg",
+      image:"/images/clubs-mtcs-c.jpg",
       heading: "STUDENTS CLUB",
       subheading: "Overview of Secondary Education",
       content: [
@@ -212,7 +212,7 @@ const Academics = ({show=true}) => {
     },
 
     {
-      image:"/images/extra-mtcs.jpg",
+      image:"/images/extra-mtcs-c.jpg",
       heading: "CO-CURRICULAR ACTIVITIES",
       subheading: "9:00am - 3:45pm",
       content: 
@@ -223,7 +223,7 @@ const Academics = ({show=true}) => {
       
     },
     {
-      image:"/images/openhouse-mtcs.jpg",
+      image:"/images/openhouse-mtcs-c.jpg",
       heading: "OPEN HOUSE",
       subheading: "9:00am - 3:45pm",
       content: 
