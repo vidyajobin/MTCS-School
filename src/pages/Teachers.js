@@ -2,6 +2,7 @@ import React from 'react'
 import BreadCrumb from '../components/BreadCrumb'
 import PrincipalSection from '../components/PrincipalSection'
 import { Container, Row, Col } from "react-bootstrap";
+import Footer from '../components/Footer';
 
 const Teachers = ({show=true }) => {
 
@@ -104,7 +105,7 @@ const Teachers = ({show=true }) => {
           <Row>
             {teachers.map((teacher, index) => (
               <Col key={index} md={6} lg={3}>
-                <div className="staff">
+                <div className="staff shadow-md">
                   <div className="img-wrap d-flex align-items-stretch">
                     <div
                       className="img align-self-stretch"
@@ -120,7 +121,7 @@ const Teachers = ({show=true }) => {
                       ))}
                     </div> */}
                   </div>
-                  <div className="text pt-3 text-center">
+                  <div className="text pt-3 text-center" style={{marginBottom:'20px'}}>
                     <h3>{teacher.name}</h3>
                     <span className="position mb-2">{teacher.subject}</span>
                     {/* {teacher.description && (
@@ -135,6 +136,7 @@ const Teachers = ({show=true }) => {
           </Row>
         </Container>
       </section>
+      {show&&<Footer/>}
     </>
 
     

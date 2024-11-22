@@ -395,3 +395,12 @@
 
 
 /* //////////////////////// FOOTER ////////////////////// */
+
+.custom-link {
+  color: rgb(0 0 0 / 55%);
+  text-decoration: none;
+}
+
+.custom-link:hover {
+  color: rgba(0, 0, 0, 0.734);
+}

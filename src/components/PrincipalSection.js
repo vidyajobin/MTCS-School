@@ -4,7 +4,7 @@ import { Container, Row, Col, Image } from 'react-bootstrap';
 const PrincipalSection = () => {
   return (
     <>
-    <div className="d-flex justify-content-center">
+    <div className="d-flex justify-content-center shadow-md">
     <Container className="principal-section px-5 m-5 rounded-md" style={{backgroundColor: '#F5F5F5'}}>
       <Row className="align-items-center">
         <Col md={5} className="text-center">

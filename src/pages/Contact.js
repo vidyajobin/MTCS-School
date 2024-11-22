@@ -2,8 +2,9 @@ import React from "react";
 import BreadCrumb from "../components/BreadCrumb";
 import SimpleCards from "../components/SimpleCards";
 import contactsvg from '../assets/undraw_engineering_team_a7n2.svg'
+import Footer from "../components/Footer";
 
-const Contact = () => {
+const Contact = ({show=true}) => {
   return (
     <>
     <BreadCrumb pagename={"Contact"} />
@@ -56,6 +57,7 @@ Puliyanam P.O. Angamaly, Ernakulam, Kerala-683572`}
 
         </div>
     </div>
+    {show&&<Footer/>}
     </>
   );
 };

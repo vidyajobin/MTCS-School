@@ -18,7 +18,7 @@ const HomeSlider = () => {
       <Carousel.Item>
       <img
           className="d-block w-100"
-          src="/images/mtcs2_enhanced.jpg"
+          src="/images/mtcs4-enhanced-c.jpg"
           alt="First slide"
           style={{maxHeight: '500px', objectFit: 'cover'}}
         />

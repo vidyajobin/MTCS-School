@@ -1,11 +1,12 @@
 import React from 'react'
 import BreadCrumb from '../components/BreadCrumb'
 import FeesCards from '../components/FeesCards'
+import Footer from '../components/Footer'
 
-const SchoolFees = () => {
+const SchoolFees = ({show=true}) => {
   return (
-    <div>
-        <BreadCrumb pagename={'School Fees'}/>
+    <>
+        {show &&<BreadCrumb pagename={'School Fees'}/>}
         <div className='fees-wrapper'>
         <div className='fees-text-container'>
         <p>The school fee is to be remitted in four instalments through Banking System or School Office directly. Fee can be paid in full or in four instalments on the specified date as mentioned in the school dairy.</p>
@@ -19,9 +20,10 @@ const SchoolFees = () => {
         
         </div>
         <h3 style={{ marginBottom: '10px' }}>Bus Fees</h3>
-        <p>Conveyance fee should be remitted monthly. The fee varies according to the distance to various destinations.</p>
+        <p style={{marginBottom:'50px'}}>Conveyance fee should be remitted monthly. The fee varies according to the distance to various destinations.</p>
         </div>
-    </div>
+        {show&&<Footer/>}
+    </>
   )
 }
 

@@ -2,16 +2,17 @@
 import React from "react";
 import BreadCrumb from "../components/BreadCrumb";
 import ImageGallery from "../components/ImageGallery";
+import Footer from "../components/Footer";
 
 
-const AnnualDay = () => {
+const AnnualDay = ({show=true}) => {
   return (
-    <div>
+    <>
     <BreadCrumb pagename={"Annual Day"}/>
     <ImageGallery/>
 
-    
-    </div>
+    {show&& <Footer/>}
+    </>
   );
 };
 

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Row, Col } from "react-bootstrap";
 import BreadCrumb from '../components/BreadCrumb'
+import Footer from '../components/Footer';
 
 const About = ({show=true}) => {
   return (
@@ -179,6 +180,7 @@ const About = ({show=true}) => {
           </Row>
         </Container>
       </section>
+      {show && <Footer /> }
     </>
   )
 }

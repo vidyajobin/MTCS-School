@@ -38,7 +38,7 @@ const CBSEDocuments = () => {
       {/* Content Area */}
       <div className="flex-1 h-full">
         <iframe
-          src=""
+          src="CBSE/Affiliation1.pdf"
           title="CBSE Document Viewer"
           name="cbse"
           className="w-full h-full border-none"

@@ -1,6 +1,7 @@
 import React from 'react'
 import BreadCrumb from '../components/BreadCrumb'
 import AcademicsCard from '../components/AcademicsCard'
+import Footer from '../components/Footer';
 
 const Academics = ({show=true}) => {
 
@@ -238,7 +239,7 @@ const Academics = ({show=true}) => {
   
 
   return (
-    <div>
+    <>
         {show && <BreadCrumb pagename={'Academics'} />}
 
       <h1 className='text-5xl font-bold mb-5 mt-16'><span style={{color: '#5d50c6'}}>The</span> <span style={{color: 'orange'}}>Kindergarden</span></h1>
@@ -294,8 +295,8 @@ const Academics = ({show=true}) => {
       ))}
       </div>
 
-        
-    </div>
+      {show && <Footer /> }    
+    </>
   )
 }
 
