@@ -233,7 +233,7 @@ const Academics = ({show=true}) => {
         },        
       
     },
-    // Add more card data as needed
+    
   ];
 
   
@@ -251,11 +251,11 @@ const Academics = ({show=true}) => {
       {cardData1.map((card, index) => (
         
         <AcademicsCard
-          key={index}              // Unique key for each card
-          imageUrl={card.image}  // Pass image URL for each card
-          heading={card.heading}    // Pass heading for each card
-          subheading={card.subheading} // Pass subheading for each card
-          content={card.content}    // Pass content for each card
+          key={index}              
+          imageUrl={card.image}  
+          heading={card.heading}    
+          subheading={card.subheading} 
+          content={card.content}    
         />
       ))}
       </div>
@@ -269,11 +269,11 @@ const Academics = ({show=true}) => {
       {cardData2.map((card, index) => (
         
         <AcademicsCard
-          key={index}              // Unique key for each card
-          imageUrl={card.image}  // Pass image URL for each card
-          heading={card.heading}    // Pass heading for each card
-          subheading={card.subheading} // Pass subheading for each card
-          content={card.content}    // Pass content for each card
+          key={index}              
+          imageUrl={card.image}  
+          heading={card.heading}    
+          subheading={card.subheading} 
+          content={card.content}    
         />
       ))}
       </div>
@@ -287,10 +287,10 @@ const Academics = ({show=true}) => {
       {cardData3.map((card, index) => (
         
         <AcademicsCard
-          key={index}              // Unique key for each card
-          imageUrl={card.image}  // Pass image URL for each card
-          heading={card.heading}    // Pass heading for each card
-          content={card.content}    // Pass content for each card
+          key={index}              
+          imageUrl={card.image}  
+          heading={card.heading}    
+          content={card.content}    
         />
       ))}
       </div>

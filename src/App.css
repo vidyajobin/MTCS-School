@@ -421,6 +421,39 @@
   }
 }
 
+/* ServiceSection.css */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .service-row {
+    display: flex;
+    align-items: stretch;
+  }
+
+  .service-col {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .service-col .media-wrapper {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .service-col .media-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .service-col .media-body h3 {
+    margin-bottom: 10px;
+  }
+
+  .service-col .media-body p {
+    flex-grow: 1;
+  }
+}
+
 
 
 /* //////////////////////// FOOTER ////////////////////// */

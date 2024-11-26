@@ -1,18 +1,18 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import '@fortawesome/fontawesome-free/css/all.min.css';
- // Make sure to include this
+
 
 const ServiceSection = () => {
   return (
     <section className="ftco-services ftco-no-pb">
       <Container fluid className="container-wrap">
-        <Row className="no-gutters">
-          <Col md={3} className="d-flex services align-self-stretch pb-4 px-4 ftco-animate bg-primary position-relative">
+        <Row className="service-row no-gutters">
+          <Col md={3} className="service-col d-flex services align-self-stretch pb-4 px-4 ftco-animate bg-primary position-relative">
             <div className="icon-wrapper">
-              <span className="fa fa-chalkboard-teacher icon"></span> {/* Font Awesome teacher icon */}
+              <span className="fa fa-chalkboard-teacher icon"></span>
             </div>
-            <div className="media block-6 d-block text-center">
+            <div className="media-wrapper media block-6 d-block text-center">
               <div className="media-body p-2 mt-5">
                 <h3 className="heading">Certified Teachers</h3>
                 <p>
@@ -21,11 +21,11 @@ const ServiceSection = () => {
               </div>
             </div>
           </Col>
-          <Col md={3} className="d-flex services align-self-stretch pb-4 px-4 ftco-animate bg-tertiary position-relative">
+          <Col md={3} className="service-col d-flex services align-self-stretch pb-4 px-4 ftco-animate bg-tertiary position-relative">
             <div className="icon-wrapper">
-              <span className="fa fa-book-open icon"></span> {/* Font Awesome book-open icon */}
+              <span className="fa fa-book-open icon"></span>
             </div>
-            <div className="media block-6 d-block text-center">
+            <div className="media-wrapper media block-6 d-block text-center">
               <div className="media-body p-2 mt-5">
                 <h3 className="heading">Special Education</h3>
                 <p>
@@ -34,11 +34,11 @@ const ServiceSection = () => {
               </div>
             </div>
           </Col>
-          <Col md={3} className="d-flex services align-self-stretch pb-4 px-4 ftco-animate bg-fifth position-relative">
+          <Col md={3} className="service-col d-flex services align-self-stretch pb-4 px-4 ftco-animate bg-fifth position-relative">
             <div className="icon-wrapper">
-              <span className="fa fa-book icon"></span> {/* Font Awesome book icon */}
+              <span className="fa fa-book icon"></span>
             </div>
-            <div className="media block-6 d-block text-center">
+            <div className="media-wrapper media block-6 d-block text-center">
               <div className="media-body p-2 mt-5">
                 <h3 className="heading">Book & Library</h3>
                 <p>
@@ -47,11 +47,11 @@ const ServiceSection = () => {
               </div>
             </div>
           </Col>
-          <Col md={3} className="d-flex services align-self-stretch pb-4 px-4 ftco-animate bg-quarternary position-relative">
+          <Col md={3} className="service-col d-flex services align-self-stretch pb-4 px-4 ftco-animate bg-quarternary position-relative">
             <div className="icon-wrapper">
-              <span className="fa fa-award icon"></span> {/* Font Awesome award icon */}
+              <span className="fa fa-award icon"></span>
             </div>
-            <div className="media block-6 d-block text-center">
+            <div className="media-wrapper media block-6 d-block text-center">
               <div className="media-body p-2 mt-5">
                 <h3 className="heading">Certification</h3>
                 <p>

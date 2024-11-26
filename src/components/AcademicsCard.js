@@ -8,7 +8,7 @@ export default function AcademicsCard({ imageUrl, heading, subheading, content }
       initial={{ opacity: 0, y: 100 }} // Initial state: slightly lower position to exaggerate the entrance
       whileInView={{ opacity: 1, y: 0 }} // Final state: fully visible
       transition={{
-        duration: 2, // Increased duration for slower, more prominent animation
+        duration: 1, // Increased duration for slower, more prominent animation
         ease: [0.25, 1, 0.5, 1], // Custom cubic-bezier easing for a smooth, bouncy effect
       }}
       viewport={{ once: true }} // Only animate once when in view

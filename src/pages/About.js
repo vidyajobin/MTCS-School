@@ -12,9 +12,9 @@ const About = ({ show = true }) => {
           <Row style={{ marginLeft: '40px', marginRight: '40px', fontSize: '1rem' }}>
             <Col
               md={5}
-              className="order-md-last wrap-about py-5 wrap-about bg-light px-1"
+              className="order-md-last wrap-about py-5 wrap-about bg-light px-2"
             >
-              <div className="text px-4 ftco-animate">
+              <div className="text ftco-animate">
                 <h2 className="mb-4 font-bold">
                   Welcome to Mount Thabore Central School
                 </h2>
@@ -33,7 +33,7 @@ const About = ({ show = true }) => {
                 </p>
               </div>
             </Col>
-            <Col md={7} className="wrap-about py-5 p-5 pr-md-4 ftco-animate">
+            <Col md={7} className="wrap-about py-5 p-2 pr-md-4 ftco-animate">
               <h2 className="mb-4">What We Offer</h2>
               <p>
                 We provide quality education with modern facilities and a
