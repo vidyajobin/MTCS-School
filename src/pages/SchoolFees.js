@@ -51,7 +51,7 @@ const SchoolFees = ({show=true}) => {
         </div>
         
         <h3 className="text-xl md:text-2xl font-semibold mb-3">Bus Fees</h3>
-        <p className="mb-12">Conveyance fee should be remitted monthly. The fee varies according to the distance to various destinations.</p>
+        <p className="mb-8">Conveyance fee should be remitted monthly. The fee varies according to the distance to various destinations.</p>
       </div>
       
       {show && <Footer/>}
