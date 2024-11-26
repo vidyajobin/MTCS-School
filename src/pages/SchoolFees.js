@@ -4,25 +4,57 @@ import FeesCards from '../components/FeesCards'
 import Footer from '../components/Footer'
 
 const SchoolFees = ({show=true}) => {
+  // Fees data array
+  const classFeesData = [
+    {
+      classheading: "KG Classes",
+      fees: "3650",
+      imageUrl: "/images/kg-classes.jpg"
+    },
+    {
+      classheading: "1-4 Classes",
+      fees: "3700",
+      imageUrl: "/images/1to4.jpg"
+    },
+    {
+      classheading: "5-7 Classes",
+      fees: "3800",
+      imageUrl: "/images/5to7.jpg"
+    },
+    {
+      classheading: "8-10 Classes",
+      fees: "4300",
+      imageUrl: "/images/8to10.jpg"
+    }
+  ];
+
   return (
     <>
-        {show &&<BreadCrumb pagename={'School Fees'}/>}
-        <div className='fees-wrapper'>
+      {show && <BreadCrumb pagename={'School Fees'}/>}
+      
+      <div className='fees-wrapper'>
         <div className='fees-text-container'>
-        <p>The school fee is to be remitted in four instalments through Banking System or School Office directly. Fee can be paid in full or in four instalments on the specified date as mentioned in the school dairy.</p>
+          <p>The school fee is to be remitted in four instalments through Banking System or School Office directly. Fee can be paid in full or in four instalments on the specified date as mentioned in the school dairy.</p>
         </div>
-        <h3>Fee structure per instalment</h3>
-        <div className='fees-cards-flex'>
-        <FeesCards classheading={"KG Classes"} fees={"3650"} imageUrl={"/images/kg-classes.jpg"}/>
-        <FeesCards classheading={"1-4 Classes"} fees={"3700"} imageUrl={"/images/1to4.jpg"}/>
-        <FeesCards classheading={"5-7 Classes"} fees={"3800"} imageUrl={"/images/5to7.jpg"}/>
-        <FeesCards classheading={"8-10 Classes"} fees={"4300"} imageUrl={"/images/8to10.jpg"}/>
         
+        <h3 className="text-xl md:text-2xl font-semibold mb-4">Fee structure per instalment</h3>
+        
+        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-8'>
+          {classFeesData.map((feeCard, index) => (
+            <FeesCards 
+              key={index}
+              classheading={feeCard.classheading}
+              fees={feeCard.fees}
+              imageUrl={feeCard.imageUrl}
+            />
+          ))}
         </div>
-        <h3 style={{ marginBottom: '10px' }}>Bus Fees</h3>
-        <p style={{marginBottom:'50px'}}>Conveyance fee should be remitted monthly. The fee varies according to the distance to various destinations.</p>
-        </div>
-        {show&&<Footer/>}
+        
+        <h3 className="text-xl md:text-2xl font-semibold mb-3">Bus Fees</h3>
+        <p className="mb-12">Conveyance fee should be remitted monthly. The fee varies according to the distance to various destinations.</p>
+      </div>
+      
+      {show && <Footer/>}
     </>
   )
 }
