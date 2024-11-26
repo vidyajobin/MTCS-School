@@ -66,7 +66,7 @@ const Teachers = ({show=true }) => {
     {
       name: "Kesia P B",
       subject: "MA BEd [English]",
-      imageUrl: "/image/teachers/Kesia-p-b.jpg"
+      imageUrl: "/image/teachers/kesia-p-b.jpg"
     },
     {
       name: "Sreedevi E P",

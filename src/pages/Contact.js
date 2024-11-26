@@ -1,7 +1,7 @@
 import React from "react";
 import BreadCrumb from "../components/BreadCrumb";
 import SimpleCards from "../components/SimpleCards";
-import contactsvg from '../assets/undraw_engineering_team_a7n2.svg'
+// import contactsvg from '../assets/undraw_engineering_team_a7n2.svg'
 import Footer from "../components/Footer";
 
 const Contact = ({show=true}) => {
@@ -11,10 +11,11 @@ const Contact = ({show=true}) => {
       
       <div className="container mx-auto px-4 py-8">
         {/* Contact Information Cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-8 mt-6">
           <SimpleCards
             heading={"Address"}
             text={`Mount Thabore Central School Puliyanam P.O. Angamaly, Ernakulam, Kerala-683572`}
+
           />
           <SimpleCards
             heading={"Contact Number"}
@@ -26,7 +27,7 @@ const Contact = ({show=true}) => {
           />
           <SimpleCards
             heading={"Website"}
-            text={`mtcs.com`}
+            text={`mtcspublicschool.com`}
           />
         </div>
 

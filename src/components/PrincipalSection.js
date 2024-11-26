@@ -9,7 +9,7 @@ const PrincipalSection = () => {
       <Row className="align-items-center">
         <Col md={5} className="text-center">
           <Image
-            src="./Image/management/principal.jpg"
+            src="./image/management/principal.jpg"
             alt="Principal"
             fluid
             rounded
