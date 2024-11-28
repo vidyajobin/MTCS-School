@@ -5,13 +5,13 @@ import Footer from '../components/Footer'
 
 const Cbse = ({show=true}) => {
   return (
-    <>
-    <BreadCrumb pagename='CBSE'/>
-    <br/>
-    <CBSEDocuments />
-    <br/>
-    {show&&<Footer/>}
-    </>
+    <div className="flex flex-col min-h-screen">
+      <BreadCrumb pagename='CBSE'/>
+      <div className="flex-grow">
+        <CBSEDocuments />
+      </div>
+      {show && <Footer/>}
+    </div>
   )
 }
 

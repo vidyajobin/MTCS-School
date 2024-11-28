@@ -8,7 +8,7 @@ const About = ({ show = true }) => {
     <>
       {show && <BreadCrumb pagename={'About Us'} />}
       <section className="ftco-section ftco-no-pt ftc-no-pb">
-        <Container className='mt-10 mb-10'>
+        <Container className='mt-16 mb-6'>
           <Row style={{ marginLeft: '40px', marginRight: '40px', fontSize: '1rem' }}>
             <Col
               md={5}
