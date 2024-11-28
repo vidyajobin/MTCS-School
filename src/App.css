@@ -325,6 +325,16 @@
   }
 }
 
+.centered-row {
+  display: flex;
+  justify-content: center; /* Centers the row horizontally */
+  align-items: center; /* Centers the content vertically */
+  gap: 20px; /* Adds spacing between items */
+  transform: scale(1.1); /* Increases the size slightly */
+  margin-top: 20px; /* Optional margin adjustments */
+}
+
+
 /* ////////////////////////SERVICE SECTION//////////////////////////////// */
 
 /* =================
