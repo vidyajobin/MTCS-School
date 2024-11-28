@@ -1,7 +1,7 @@
 import React from "react";
 
 // react icons
-import { CgFacebook } from "react-icons/cg";
+// import { CgFacebook } from "react-icons/cg";
 import { BsInstagram } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
@@ -61,12 +61,12 @@ const Footer = () => {
         </div>
 
         <div className="flex items-center flex-wrap gap-[10px] text-text">
-          <a 
+          {/* <a 
           href="https://www.facebook.com/mounttaborresidentialcentralschool"
           target="blank"
           className="text-[1.3rem] p-1.5 cursor-pointer rounded-full hover:text-white hover:bg-primary transition-all duration-300 custom-link">
             <CgFacebook />
-          </a>
+          </a> */}
           <a 
           href="https://www.instagram.com/mtcs_peechanikkad/"
           target="blank"
