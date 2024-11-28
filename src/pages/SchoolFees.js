@@ -24,7 +24,7 @@ const SchoolFees = ({show=true}) => {
     {
       classheading: "8-10 Classes",
       fees: "4300",
-      imageUrl: "/images/8-10-r.jpg"
+      imageUrl: "/images/classes-8-10.jpg"
     }
   ];
 

@@ -5,7 +5,7 @@ import Footer from '../components/Footer'
 
 const Blog = ({show=true}) => {
  const cardinfo=[
-  {image:"/images/an_image_of_annual_day_celebrations_of_an_indian_s.png",heading:"Annual Day",text:"The school Annual day celebrations took place on December 2nd 2023. The program was inaugrated by Actor Tom Cruise",url:"/annualday"},
+  {image:"/images/annual-day-r.jpg",heading:"Annual Day",text:"The school Annual day celebrations took place on December 2nd 2023. The program was inaugrated by Actor Tom Cruise",url:"/annualday"},
   {image:"/images/sports-r.jpg",heading:"Sports Meet",text:"The school sports was conducted over two days from april 22nd to 23rd. The event was inaugrated by SI Biju Paulose",url:"/sportsday"},
   {image:"/images/christmas.jpg",heading:"Cultural Events",text:"The School celebrates various cultural events including Christmas, Teacher's Day and all other major cultural activities",url:"/culturalevents"},
   {image:"/images/environment-day.jpg",heading:"Sustainability Events",text:"The school engages in various programs promoting sustainable development such as Environment Day Celebrations",url:"/sustainabilityevents"}];
