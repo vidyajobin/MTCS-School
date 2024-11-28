@@ -9,22 +9,22 @@ const SchoolFees = ({show=true}) => {
     {
       classheading: "KG Classes",
       fees: "3650",
-      imageUrl: "/images/kg-classes.jpg"
+      imageUrl: "/images/kg-classes-r.jpg"
     },
     {
       classheading: "1-4 Classes",
       fees: "3700",
-      imageUrl: "/images/1to4.jpg"
+      imageUrl: "/images/1-4-r.jpg"
     },
     {
       classheading: "5-7 Classes",
       fees: "3800",
-      imageUrl: "/images/5to7.jpg"
+      imageUrl: "/images/5-7-r.jpg"
     },
     {
       classheading: "8-10 Classes",
       fees: "4300",
-      imageUrl: "/images/8to10.jpg"
+      imageUrl: "/images/8-10-r.jpg"
     }
   ];
 
