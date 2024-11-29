@@ -7,7 +7,7 @@ const Academics = ({show=true}) => {
 
   const cardData1 = [
     {
-      image:"/images/pre-kg mtcs-c.jpg",
+      image:"/images/kg-classes-r.jpg",
       heading: "Pre-KG",
       subheading: "9:00am - 3:45pm",
       content: 
