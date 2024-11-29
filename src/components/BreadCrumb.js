@@ -10,7 +10,7 @@ const BreadCrumb = (props) => {
           className="p-5 text-center bg-image"
           style={{
             backgroundImage:
-              "url('/images/bg_2.jpg')",
+              "url('/images/mtcs-kids-bg.jpg')",
             height: 300,
           }}
         >

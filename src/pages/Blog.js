@@ -5,9 +5,9 @@ import Footer from '../components/Footer'
 
 const Blog = ({show=true}) => {
  const cardinfo=[
-  {image:"/images/annual-day-r.jpg",heading:"Annual Day",text:"The school Annual day celebrations took place on December 2nd 2023. The program was inaugrated by Actor Tom Cruise",url:"/annualday"},
-  {image:"/images/sports-r.jpg",heading:"Sports Meet",text:"The school sports was conducted over two days from april 22nd to 23rd. The event was inaugrated by SI Biju Paulose",url:"/sportsday"},
-  {image:"/images/christmas.jpg",heading:"Cultural Events",text:"The School celebrates various cultural events including Christmas, Teacher's Day and all other major cultural activities",url:"/culturalevents"},
+  {image:"/images/annual-day-r.jpg",heading:"Annual Day",text:"The school Annual day celebrations took place on December 2nd 2023. The program was inaugrated by Fr.Jibi Yohannan",url:"/annualday"},
+  {image:"/images/sports-r.jpg",heading:"Sports Meet",text:"The school sports was conducted over two days from april 22nd to 23rd. The event was inaugrated by Sub Inspector of Police, Angamaly",url:"/sportsday"},
+  {image:"/images/bakery-visit.jpg",heading:"Co-curricular Activities",text:"The school offers a wide range of co-curricular activities, including industry visits and educational trips to government organizations",url:"/culturalevents"},
   {image:"/images/environment-day.jpg",heading:"Sustainability Events",text:"The school engages in various programs promoting sustainable development such as Environment Day Celebrations",url:"/sustainabilityevents"}];
 
   return (

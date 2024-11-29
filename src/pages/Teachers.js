@@ -22,12 +22,12 @@ const Teachers = ({show=true }) => {
     {
       name: "Beena K A",
       subject: "BA BEd [Social Studies]",
-      imageUrl: "/image/teachers/beena-k-a.jpg"
+      imageUrl: "/image/teachers/beena-k-a.png"
     },
     {
-      name: "Mary Mathew",
-      subject: "NTTC",
-      imageUrl: "/image/teachers/mary-mathew.jpg"
+      name: "Simi T B",
+      subject: "MA BEd",
+      imageUrl: "/image/teachers/simi-tb.jpg"
     },
     {
       name: "Priya Varghese",
@@ -40,9 +40,9 @@ const Teachers = ({show=true }) => {
       imageUrl: "/image/teachers/rany-john.jpg"
     },
     {
-      name: "Revathy Rajan",
+      name: "Rekha Menon",
       subject: "MA BEd [Malayalam]",
-      imageUrl: "/image/teachers/revathy-rajan.jpg"
+      imageUrl: "/image/teachers/rekha-menon.jpg"
     },
     {
       name: "Sarala Devi",
@@ -50,9 +50,9 @@ const Teachers = ({show=true }) => {
       imageUrl: "/image/teachers/sarala-devi.jpg"
     },
     {
-      name: "Seby K S",
-      subject: "Bsc PGDCA [Mathematics]",
-      imageUrl: "/image/teachers/seby-k-s.jpg"
+      name: "Aswini Sreekumar",
+      subject: "BA BEd [English]",
+      imageUrl: "/image/teachers/aswini-sreekumar.jpg"
     },
     {
       name: "Shaly Shaju",
@@ -75,14 +75,14 @@ const Teachers = ({show=true }) => {
       imageUrl: "/image/teachers/kesia-p-b.jpg"
     },
     {
-      name: "Sreedevi E P",
-      subject: "Bsc BEd [Science]",
-      imageUrl: "/image/teachers/sreedevi-e-p.jpg"
+      name: "Anjaly V A",
+      subject: "Bsc BEd [Mathematics]",
+      imageUrl: "/image/teachers/anjaly-va.jpg"
     },
     {
-      name: "Neethu P S",
-      subject: "MA BEd [English]",
-      imageUrl: "/image/teachers/neethu-p-s.png"
+      name: "Sreebha V",
+      subject: "Msc BEd M phil [Zoology]",
+      imageUrl: "/image/teachers/sreebha.jpg"
     },
     {
       name: "Blessy Alias",

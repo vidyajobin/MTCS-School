@@ -168,7 +168,7 @@ const Academics = ({show=true}) => {
       ]
     },
     {
-      image:"/images/abacus-mtcs-c.jpg",
+      image:"/images/1-4-r.jpg",
       heading: "ABACUS",
       subheading: "Overview of Secondary Education",
       content: [
@@ -212,13 +212,13 @@ const Academics = ({show=true}) => {
     },
 
     {
-      image:"/images/extra-mtcs-c.jpg",
-      heading: "CO-CURRICULAR ACTIVITIES",
+      image:"/images/christmas.jpg",
+      heading: "CULTURAL ACTIVITIES",
       subheading: "9:00am - 3:45pm",
       content: 
         {
           type: 'text',
-          text: 'Co-Curricular activities are meant to bring social skills, intellectual skills, moral values, personality progress and character appeal in students. Our school provides activities like games, sports, cultural events, club events, monthly competitions, field trip, study tour, inter school activities etc.'
+          text: `The school takes pride in celebrating a diverse range of cultural events throughout the year, fostering unity and appreciation for various traditions. These include vibrant festivities like Christmas, the joyous harvest festival of Onam, the heartfelt appreciation of Teacher's Day, and numerous other significant cultural occasions. Through these celebrations, the school not only nurtures cultural awareness but also creates an inclusive environment where students, teachers, and staff come together to honor shared values and traditions`
         },        
       
     },
