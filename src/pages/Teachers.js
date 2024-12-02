@@ -206,7 +206,7 @@ const Teachers = ({show=true }) => {
               </p>
             </Col>
           </Row>
-          <Row>
+          <Row style={{marginBottom: "-50px"}}>
             {teachers.map((teacher, index) => (
               <Col key={index} md={6} lg={3}>
                 <motion.div
@@ -247,7 +247,7 @@ const Teachers = ({show=true }) => {
               </p>
             </Col>
           </Row>
-          <Row className="justify-content-center">
+          <Row className="justify-content-center" style={{marginBottom: "-50px"}}>
             {nonteachingstaff.map((teacher, index) => (
               <Col key={index} md={6} lg={3}>
                 <motion.div
@@ -265,7 +265,7 @@ const Teachers = ({show=true }) => {
                       }}
                     ></div>
                   </div>
-                  <div className="text pt-3 text-center" style={{ marginBottom: '20px' }}>
+                  <div className="text pt-3 text-center" style={{ marginBottom: '10px' }}>
                     <h3>{teacher.name}</h3>
                     <span className="position mb-2">{teacher.subject}</span>
                   </div>
@@ -288,7 +288,7 @@ const Teachers = ({show=true }) => {
               </p>
             </Col>
           </Row>
-          <Row className="justify-content-center centered-row">
+          <Row className="justify-content-center centered-row " style={{marginBottom: "-50px"}}>
             {studentRepresentatives.map((teacher, index) => (
               <Col key={index} md={6} lg={3}>
                 <motion.div

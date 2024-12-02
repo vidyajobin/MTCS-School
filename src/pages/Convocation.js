@@ -3,14 +3,16 @@ import BreadCrumb from '../components/BreadCrumb'
 import ImageGallery from '../components/ImageGallery'
 import Footer from '../components/Footer'
 
-const SportsDay = () => {
+
+
+const Convocation = () => {
   return (
     <div>
-        <BreadCrumb pagename={"SportsDay"}/>
+        <BreadCrumb pagename={"Convocation"}/>
         <ImageGallery/>
         <Footer/>
     </div>
   )
 }
 
-export default SportsDay
+export default Convocation

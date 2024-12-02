@@ -6,8 +6,8 @@ import Footer from '../components/Footer'
 const Blog = ({show=true}) => {
  const cardinfo=[
   {image:"/images/annual-day-r.jpg",heading:"Annual Day",text:"The school Annual day celebrations took place on December 2nd 2023. The program was inaugrated by Fr.Jibi Yohannan",url:"/annualday"},
-  {image:"/images/sports-r.jpg",heading:"Sports Meet",text:"The school sports was conducted over two days from april 22nd to 23rd. The event was inaugrated by Sub Inspector of Police, Angamaly",url:"/sportsday"},
-  {image:"/images/bakery-visit.jpg",heading:"Co-curricular Activities",text:"The school offers a wide range of co-curricular activities, including industry visits and educational trips to government organizations",url:"/culturalevents"},
+  {image:"/images/sports-r.jpg",heading:"Kindergarten Convocation.",text:"A heartfelt celebration marking the achievements of our UKG students as they take their first big step in their educational journey.",url:"/sportsday"},
+  {image:"/images/bakery-visit.jpg",heading:"Co-curricular Activities",text:"The school offers a wide range of co-curricular activities, including Industry visits and other Educational Ventures",url:"/culturalevents"},
   {image:"/images/environment-day.jpg",heading:"Sustainability Events",text:"The school engages in various programs promoting sustainable development such as Environment Day Celebrations",url:"/sustainabilityevents"}];
 
   return (

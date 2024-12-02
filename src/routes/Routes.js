@@ -8,7 +8,7 @@ import SchoolFees from '../pages/SchoolFees';
 import Blog from '../pages/Blog';
 import Contact from '../pages/Contact';
 import AnnualDay from '../pages/AnnualDay'; 
-import SportsDay from '../pages/SportsDay';
+import Convocation from '../pages/Convocation';
 import CulturalEvents from '../pages/CulturalEvents'
 import SustainabilityEvents from '../pages/SustainabilityEvents'
 import Cbse from '../pages/Cbse';
@@ -25,7 +25,7 @@ const RoutesConfig = () => {
       <Route path="/blog" element={<Blog />} />
       <Route path="/contactus" element={<Contact />} />
       <Route path="/annualday" element={<AnnualDay />} /> 
-      <Route path="/sportsday" element={<SportsDay />} /> 
+      <Route path="/convocation" element={<Convocation />} /> 
       <Route path="/culturalevents" element={<CulturalEvents />} /> 
       <Route path="/sustainabilityevents" element={<SustainabilityEvents />} /> 
       <Route path="/cbse" element={<Cbse />} /> 
