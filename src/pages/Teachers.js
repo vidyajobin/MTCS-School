@@ -151,6 +151,36 @@ const Teachers = ({show=true }) => {
     
   ];
 
+  const nonteachingstaff = [
+    {
+      name: "Jincy A Y",
+      imageUrl: "/image/management/jincy-ay.png"
+    },
+    {
+      name: "Lilly Joseph",
+      imageUrl: "/image/management/lilly-joseph.jpg"
+    },
+    {
+      name: "Saljo P M",
+      imageUrl: "/image/management/saljo-pm.png"
+    },
+    
+    
+  ];
+
+  const studentRepresentatives = [
+    {
+      name: "Abhishek V R",
+      imageUrl: "/image/management/head-boy.jpg"
+    },
+    {
+      name: "Henin Varghese",
+      imageUrl: "/image/management/head-girl.jpg"
+    },
+    
+    
+  ];
+
   // Animation variant for teacher cards
   const cardVariants = {
     hidden: { opacity: 0, y: 20 },
@@ -176,6 +206,88 @@ const Teachers = ({show=true }) => {
           </Row>
           <Row>
             {teachers.map((teacher, index) => (
+              <Col key={index} md={6} lg={3}>
+                <motion.div
+                  className="staff shadow-md"
+                  initial="hidden"  // This should be the state for initial
+                  animate="visible" // This should be the state for animation
+                  variants={cardVariants} // Make sure variants are passed correctly
+                  whileHover={{ scale: 1.05 }} // Apply hover effect
+                >
+                  <div className="img-wrap d-flex align-items-stretch">
+                    <div
+                      className="img align-self-stretch"
+                      style={{
+                        backgroundImage: `url(${teacher.imageUrl})`,
+                      }}
+                    ></div>
+                  </div>
+                  <div className="text pt-3 text-center" style={{ marginBottom: '20px' }}>
+                    <h3>{teacher.name}</h3>
+                    <span className="position mb-2">{teacher.subject}</span>
+                  </div>
+                </motion.div>
+              </Col>
+            ))}
+          </Row>
+        </Container>
+      </section>
+
+      <section className="teachers-section">
+        <Container>
+          <Row className="justify-content-center mb-5 pb-2">
+            <Col md={8} className="text-center heading-section">
+              <h2 className="mb-4">
+                <span>Non-Teaching</span> Staff
+              </h2>
+              <p>
+              Our non-teaching staff forms the backbone of our school, ensuring smooth operations and creating a welcoming environment. Their dedication and behind-the-scenes efforts play a vital role in supporting our students and teachers every day.
+              </p>
+            </Col>
+          </Row>
+          <Row className="justify-content-center">
+            {nonteachingstaff.map((teacher, index) => (
+              <Col key={index} md={6} lg={3}>
+                <motion.div
+                  className="staff shadow-md"
+                  initial="hidden"  // This should be the state for initial
+                  animate="visible" // This should be the state for animation
+                  variants={cardVariants} // Make sure variants are passed correctly
+                  whileHover={{ scale: 1.05 }} // Apply hover effect
+                >
+                  <div className="img-wrap d-flex align-items-stretch">
+                    <div
+                      className="img align-self-stretch"
+                      style={{
+                        backgroundImage: `url(${teacher.imageUrl})`,
+                      }}
+                    ></div>
+                  </div>
+                  <div className="text pt-3 text-center" style={{ marginBottom: '20px' }}>
+                    <h3>{teacher.name}</h3>
+                    <span className="position mb-2">{teacher.subject}</span>
+                  </div>
+                </motion.div>
+              </Col>
+            ))}
+          </Row>
+        </Container>
+      </section>
+
+      <section className="teachers-section">
+        <Container>
+          <Row className="justify-content-center mb-5 pb-2">
+            <Col md={8} className="text-center heading-section">
+              <h2 className="mb-4">
+                <span>Student</span> Representatives
+              </h2>
+              <p>
+              Meet our dedicated leaders, the Head Boy and Head Girl, who embody the values and spirit of our school. As role models and mentors, they inspire their peers and work tirelessly to foster a supportive and inclusive school environment.
+              </p>
+            </Col>
+          </Row>
+          <Row className="justify-content-center">
+            {studentRepresentatives.map((teacher, index) => (
               <Col key={index} md={6} lg={3}>
                 <motion.div
                   className="staff shadow-md"
@@ -241,6 +353,10 @@ const Teachers = ({show=true }) => {
               </Col>
             ))}
           </Row>
+
+          
+
+
           <Row>
             {managementdata.map((management, index) => (
               <Col key={index} md={6} lg={3}>
