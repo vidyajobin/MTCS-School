@@ -171,10 +171,12 @@ const Teachers = ({show=true }) => {
   const studentRepresentatives = [
     {
       name: "Abhishek V R",
+      subject: "Head Boy",
       imageUrl: "/image/management/head-boy.jpg"
     },
     {
       name: "Henin Varghese",
+      subject: "Head Girl",
       imageUrl: "/image/management/head-girl.jpg"
     },
     
@@ -286,7 +288,7 @@ const Teachers = ({show=true }) => {
               </p>
             </Col>
           </Row>
-          <Row className="justify-content-center">
+          <Row className="justify-content-center centered-row">
             {studentRepresentatives.map((teacher, index) => (
               <Col key={index} md={6} lg={3}>
                 <motion.div
