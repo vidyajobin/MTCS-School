@@ -27,7 +27,7 @@ const Contact = ({show=true}) => {
           />
           <SimpleCards
             heading={"Website"}
-            text={`mtcspublicschool.com`}
+            text={`mountthaboreschool.com`}
           />
         </div>
 
