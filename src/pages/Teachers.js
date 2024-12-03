@@ -235,7 +235,7 @@ const Teachers = ({show=true }) => {
         </Container>
       </section>
 
-      <section className="teachers-section">
+      {show && <section className="teachers-section">
         <Container>
           <Row className="justify-content-center mb-5 pb-2">
             <Col md={8} className="text-center heading-section">
@@ -274,9 +274,9 @@ const Teachers = ({show=true }) => {
             ))}
           </Row>
         </Container>
-      </section>
+      </section>}
 
-      <section className="teachers-section">
+      {show &&<section className="teachers-section">
         <Container>
           <Row className="justify-content-center mb-5 pb-2">
             <Col md={8} className="text-center heading-section">
@@ -315,9 +315,9 @@ const Teachers = ({show=true }) => {
             ))}
           </Row>
         </Container>
-      </section>
+      </section>}
 
-      <section className="teachers-section">
+      {show&& <section className="teachers-section">
         <Container>
           <Row className="justify-content-center mb-5 pb-2">
             <Col md={8} className="text-center heading-section">
@@ -386,7 +386,7 @@ const Teachers = ({show=true }) => {
             ))}
           </Row>
         </Container>
-      </section>
+      </section>}
 
       {show && <Footer />}
     </>
