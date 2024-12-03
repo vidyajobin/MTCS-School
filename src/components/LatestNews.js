@@ -3,10 +3,11 @@ const LatestNewsBanner = () => {
       <div
         style={{
           position: "relative",
-          backgroundColor: "black",
+          backgroundColor: "Red",
           overflow: "hidden",
-          color: "white",
+          color: "White",
           height: "50px",
+          fontStyle: "bold"
         }}
         className="latest-news-banner"
       >
@@ -17,7 +18,7 @@ const LatestNewsBanner = () => {
             top: "50%",
             left: 0,
             transform: "translateY(-50%)",
-            backgroundColor: "red",
+            backgroundColor: "Black",
             color: "white",
             padding: "10px 20px",
             fontWeight: "bold",

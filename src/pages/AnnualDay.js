@@ -21,7 +21,7 @@ const AnnualDay = ({ show = true }) => {
         <iframe
           width="960" // Adjust the width
           height="540" // Adjust the height
-          src="https://www.youtube.com/embed/2iVR7Pu0QFs?si=KqZ5DtOJ3ySMaRxe"
+          src="https://www.youtube.com/embed/2iVR7Pu0QFs?si=KqZ5DtOJ3ySMaRxe&autoplay=1"
           title="YouTube video player"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

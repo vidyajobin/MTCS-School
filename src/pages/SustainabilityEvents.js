@@ -14,7 +14,7 @@ const SustainabilityEvents = () => {
   ];
   return (
     <div>
-        <BreadCrumb pagename={"Cultural Events"}/>
+        <BreadCrumb pagename={"Sustainability Events"}/>
         <ImageGallery images={imageLinks}/>
         <Footer/>
     </div>

@@ -92,13 +92,13 @@ const Teachers = ({show=true }) => {
   ];
 
   const managementdata = [
+    // {
+    //   name: "Eldho Paul",
+    //   imageUrl: "/image/management/eldho-paul-c.jpg"
+    // },
     {
-      name: "Eldho Paul",
-      imageUrl: "/image/management/eldho-paul-c.jpg"
-    },
-    {
-      name: "Saji Cherian",
-      imageUrl: "/image/management/saji_cherian-c.jpg"
+      name: "Jacob T V",
+      imageUrl: "/image/management/jacob.jpg"
     },
     {
       name: "Eldho Varghese",
@@ -113,21 +113,21 @@ const Teachers = ({show=true }) => {
       imageUrl: "/image/management/shabu.jpg"
     },
     {
-      name: "Shaji Varghese",
-      imageUrl: "/image/management/shaji.jpg"
+      name: "Suraj Skariah",
+      imageUrl: "/image/management/suraj-skariah.jpg"
     },
     {
-      name: "Shimson Shaji",
-      imageUrl: "/image/management/shimson.jpg"
-    },
-    {
-      name: "Scariya P K",
-      imageUrl: "/image/management/scariya.jpg"
+      name: "Raju P L",
+      imageUrl: "/image/management/raju-pl.jpg"
     },
     {
       name: "Manoj Mathew",
       imageUrl: "/image/management/manoj.jpg"
-    }
+    },
+    {
+      name: "Wilson",
+      imageUrl: "/image/management/"
+    },
     
   ];
 
@@ -138,14 +138,14 @@ const Teachers = ({show=true }) => {
       imageUrl: "/image/management/kuriakose-av.jpg"
     },
     {
-      name: "Jacob T V",
+      name: "Kuriakose A C",
       subject: "Secretary",
-      imageUrl: "/image/management/jacob.jpg"
+      imageUrl: "/image/management/kuriakose-ac.jpg"
     },
     {
-      name: "Kuriakose A C",
+      name: "Saji Cherian ",
       subject: "Joint Secretary",
-      imageUrl: "/image/management/kuriakose-ac.jpg"
+      imageUrl: "/image/management/saji_cherian-c.jpg"
     },
     
     
@@ -191,7 +191,7 @@ const Teachers = ({show=true }) => {
 
   return (
     <>
-      {show && <BreadCrumb pagename={'Teachers'}/>}
+      {show && <BreadCrumb pagename={'Our Team'}/>}
       <PrincipalSection />
       <ManagerSection/>
       <section className="teachers-section">
