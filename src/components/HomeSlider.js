@@ -6,7 +6,7 @@ const HomeSlider = () => {
       <Carousel.Item>
       <img
           className="d-block w-100"
-          src="/images/mtcs-bg-1.jpg"
+          src="/images/mtcs-bg-3.jpg"
           alt="First slide"
           style={{maxHeight: '500px', objectFit: 'cover'}}
         />
@@ -30,7 +30,7 @@ const HomeSlider = () => {
       <Carousel.Item>
       <img
           className="d-block w-100"
-          src="/images/mtcs-bg-3.jpg"
+          src="/images/mtcs-bg-1.jpg"
           alt="First slide"
           style={{maxHeight: '500px', objectFit: 'cover'}}
         />
