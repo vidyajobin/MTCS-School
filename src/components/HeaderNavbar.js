@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { CiMenuBurger } from "react-icons/ci";
+import LatestNews from "./LatestNews";
 
 const HeaderNavbar = () => {
   return (
@@ -27,6 +28,8 @@ const HeaderNavbar = () => {
           </p>
         </div>
       </header>
+
+      <LatestNews/>
 
       {/* Responsive Navbar */}
       <Navbar bg="light" expand="lg" className="custom-navbar">
