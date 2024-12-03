@@ -35,7 +35,7 @@ const Footer = () => {
             Academics
           </Link>
           <Link
-            to="/fees"
+            to="/schoolfees"
             className="text-[0.9rem] text-text hover:text-primary cursor-pointer transition-all duration-200 custom-link"
           >
             School Fees
@@ -53,7 +53,7 @@ const Footer = () => {
             CBSE
           </Link>
           <Link
-            to="/contact"
+            to="/contactus"
             className="text-[0.9rem] text-text hover:text-primary cursor-pointer transition-all duration-200 custom-link"
           >
             Contact Us

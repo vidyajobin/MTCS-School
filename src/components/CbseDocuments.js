@@ -17,7 +17,7 @@ const CBSEDocuments = () => {
     { title: 'Trust Members', path: 'CBSE/trust members affi.pdf' },
     { title: 'Self Certificate', path: 'CBSE/self certification.pdf' },
     { title: 'Sanitary Certificate', path: 'CBSE/sanitary Certificat.pdf' },
-    { title: 'Staff Statement', path: 'CBSE/staff statement.pdf' }
+    { title: 'Staff Statement', path: 'CBSE/staff statement.pdf' },
   ];
 
   const handleDocumentSelect = (path) => {
@@ -26,9 +26,9 @@ const CBSEDocuments = () => {
   };
 
   return (
-    <div className="flex flex-col md:flex-row h-[calc(100vh-200px)] max-h-[800px]">
+    <div className="flex flex-col md:flex-row h-[calc(100vh-150px)]">
       {/* Mobile Menu Toggle */}
-      <button 
+      <button
         className="md:hidden fixed top-4 left-4 z-50 p-2 bg-gray-100 rounded-md shadow"
         onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
       >
@@ -36,20 +36,22 @@ const CBSEDocuments = () => {
       </button>
 
       {/* Side Menu */}
-      <div className={`
-        ${isMobileMenuOpen ? 'block' : 'hidden'} 
-        md:block 
-        fixed md:static 
-        top-0 left-0 w-full md:w-64 
-        h-full 
-        bg-white 
-        md:border-r 
-        shadow-lg 
-        md:shadow-sm 
-        z-40 
-        overflow-y-auto 
-        pt-16 md:pt-0
-      `}>
+      <div
+        className={`
+          ${isMobileMenuOpen ? 'block' : 'hidden'}
+          md:block
+          fixed md:static
+          top-0 left-0 w-full md:w-64
+          h-full
+          bg-white
+          md:border-r
+          shadow-lg
+          md:shadow-sm
+          z-40
+          overflow-y-auto
+          pt-16 md:pt-0
+        `}
+      >
         <ul className="p-4 space-y-2">
           {documents.map((doc, index) => (
             <li key={index}>
@@ -65,7 +67,7 @@ const CBSEDocuments = () => {
       </div>
 
       {/* Content Area */}
-      <div className="flex-1 h-full mt-16 md:mt-0">
+      <div className="flex-1 h-full">
         <iframe
           src={selectedDocument}
           title="CBSE Document Viewer"
@@ -75,7 +77,7 @@ const CBSEDocuments = () => {
 
       {/* Overlay for mobile menu */}
       {isMobileMenuOpen && (
-        <div 
+        <div
           className="fixed inset-0 bg-black/50 z-30 md:hidden"
           onClick={() => setIsMobileMenuOpen(false)}
         />
