@@ -9,9 +9,9 @@ import Blog from '../pages/Blog';
 import Contact from '../pages/Contact';
 import AnnualDay from '../pages/AnnualDay'; 
 import Convocation from '../pages/Convocation';
-import CulturalEvents from '../pages/CulturalEvents'
 import SustainabilityEvents from '../pages/SustainabilityEvents'
 import Cbse from '../pages/Cbse';
+import Cocurricular from '../pages/Cocurricular';
 
 const RoutesConfig = () => {
   return (
@@ -26,7 +26,7 @@ const RoutesConfig = () => {
       <Route path="/contactus" element={<Contact />} />
       <Route path="/annualday" element={<AnnualDay />} /> 
       <Route path="/convocation" element={<Convocation />} /> 
-      <Route path="/culturalevents" element={<CulturalEvents />} /> 
+      <Route path="/cocurricular" element={<Cocurricular />} /> 
       <Route path="/sustainabilityevents" element={<SustainabilityEvents />} /> 
       <Route path="/cbse" element={<Cbse />} /> 
     </Routes>

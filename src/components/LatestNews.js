@@ -43,7 +43,7 @@ const LatestNewsBanner = () => {
               animation: "scroll 18s linear infinite",
             }}
           >
-            Admission Open For The Session 2025-26. Get in touch with Us...
+            🎓 " Admissions Open, Enroll Now! Limited Seats Available for 2025-26 Admissions"
           </div>
         </div>
   
