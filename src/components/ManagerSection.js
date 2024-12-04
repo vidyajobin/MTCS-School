@@ -22,13 +22,13 @@ const PrincipalSection = () => {
               }}
           />
           <div className="principal-info mt-3">
-            <h5 className="principal-name">Jibi Yohannan</h5>
+            <h5 className="principal-name">Jiby Yohannan</h5>
             <p className="principal-designation">Manager</p>
           </div>
         </Col>
         <Col md={7} className="principal-message " >
         {/* <i class="fa-solid fa-thumbtack" style={{ fontSize: '2rem', color: '#41A1F0', marginBottom:"10px" }}></i> */}
-          <h2 style={{color: "#ffa500"}}>Our Mission</h2>
+          <h2 style={{color: "#ffa500"}}>Message from the Manager</h2>
           <p>
             
             <br />

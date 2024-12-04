@@ -17,7 +17,7 @@ const AnnualDay = ({ show = true }) => {
       
 
       <BreadCrumb pagename={"Annual Day"} />
-      <div style={{ display: "flex", justifyContent: "center", alignItems: "center", padding: "20px" }}>
+      {/* <div style={{ display: "flex", justifyContent: "center", alignItems: "center", padding: "20px" }}>
         <iframe
           width="960" // Adjust the width
           height="540" // Adjust the height
@@ -29,7 +29,7 @@ const AnnualDay = ({ show = true }) => {
           allowFullScreen
           style={{ border: "5px solid #ccc", borderRadius: "10px" }} // Optional styling
         ></iframe>
-      </div>
+      </div> */}
       <ImageGallery images={imageLinks}/>
 
       {show && <Footer />}
